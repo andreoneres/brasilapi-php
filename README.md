@@ -15,12 +15,27 @@ Você pode acessar a documentação oficial da BrasilAPI acessando esse [link](h
 
 ## Índice
 
-- [Requisitos](#requisitos)
-- [Instalação](#instalação)
-- [Utilização](#utilização)
-- [Endpoints](#endpoints)
-- [Criando endpoints](#criando-endpoints)
-- [Licença](#licença)
+- [Introdução](#introdução)
+  - [Índice](#índice)
+  - [Requisitos](#requisitos)
+  - [Instalação](#instalação)
+  - [Utilização](#utilização)
+  - [Endpoints](#endpoints)
+    - [BANKS](#banks)
+    - [CEP](#cep)
+    - [CEP V2](#cep-v2)
+    - [CNPJ](#cnpj)
+    - [CPTEC](#cptec)
+    - [DDD](#ddd)
+    - [Feriados Nacionais](#feriados-nacionais)
+    - [FIPE](#fipe)
+    - [IBGE](#ibge)
+    - [ISBN](#isbn)
+    - [NCM](#ncm)
+    - [Registro BR](#registro-br)
+    - [Taxas](#taxas)
+  - [Criando endpoints](#criando-endpoints)
+  - [Licença](#licença)
 
 ## Requisitos
 
