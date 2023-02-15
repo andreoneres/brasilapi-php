@@ -7,7 +7,7 @@ namespace BrasilApi;
 use BrasilApi\Endpoints\Abstracts\Endpoint;
 use BrasilApi\Endpoints\Banks;
 use BrasilApi\Endpoints\CEP;
-use BrasilApi\Endpoints\CEP2;
+use BrasilApi\Endpoints\CEPV2;
 use BrasilApi\Endpoints\CNPJ;
 use BrasilApi\Endpoints\Collections\Endpoints;
 use BrasilApi\Endpoints\CPTEC;
@@ -30,7 +30,7 @@ use GuzzleHttp\Exception\RequestException;
 /**
  * @method Banks banks()
  * @method CEP cep()
- * @method CEP2 cep2()
+ * @method CEPV2 cepV2()
  * @method CNPJ cnpj()
  * @method CPTEC cptec()
  * @method DDD ddd()
@@ -136,7 +136,7 @@ class Client
         $this->endpoints = new Endpoints([
             "banks"      => Banks::class,
             "cep"        => CEP::class,
-            "cep2"       => CEP2::class,
+            "cepV2"      => CEPV2::class,
             "cnpj"       => CNPJ::class,
             "cptec"      => CPTEC::class,
             "ddd"        => DDD::class,

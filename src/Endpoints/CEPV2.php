@@ -10,7 +10,7 @@ use BrasilApi\Exceptions\BrasilApiException;
 /**
  * @see https://brasilapi.com.br/docs#tag/CEP-V2
  */
-class CEP2 extends Endpoint
+class CEPV2 extends Endpoint
 {
     /**
      * Find a CEP in version 2.
