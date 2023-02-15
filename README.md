@@ -47,9 +47,9 @@ require __DIR__ . '/vendor/autoload.php';
 
 use BrasilApi\Client;
 
-$client = new Client();
+$brasilApi = new Client();
 
-$address = $client->cnpj()->get('00000000000191');
+$address = $brasilApi->cep()->get('01001000');
 ```
 
 ## Endpoints
@@ -98,9 +98,9 @@ require __DIR__ . '/vendor/autoload.php';
 
 use BrasilApi\Client;
 
-$client = new Client();
+$brasilApi = new Client();
 
-$client->addEndpoint("hope", App\Endpoints\Hope::class);
+$brasilApi->addEndpoint("hope", App\Endpoints\Hope::class);
 ```
 
 **Obs.:** O nome do endpoint deve ser o mesmo que você passou no método `addEndpoint` pois ele será utilizado
@@ -109,7 +109,7 @@ no método mágico __call ao ser chamado.
 4. Para utilizar este novo endpoint, você deve chamá-lo da seguinte forma:
 
 ```php
-$address = $client->hope();
+$address = $brasilApi->hope();
 ```
 
 **Obs.2:** Além de criar, você pode sobrescrever endpoints existentes e atualizar os seus métodos.
