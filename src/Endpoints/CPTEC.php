@@ -77,20 +77,20 @@ class CPTEC extends Endpoint
     }
     
     /**
-     * Find ocean weather information for a specific city.
+     * Find ocean forecast information for a specific city.
      *
      * @param int $cityCode Code of city
      *
      * @return array
      * @throws BrasilApiException
      */
-    public function oceanWeatherInCity(int $cityCode): array
+    public function oceanForecastInCity(int $cityCode): array
     {
         return $this->client->request("/cptec/v1/ondas/{$cityCode}");
     }
     
     /**
-     * Find ocean weather information for a specific city within 1 to 6 days.
+     * Find ocean forecast information for a specific city within 1 to 6 days.
      *
      * @param int $cityCode Code of city
      * @param int $days Quantity of days
@@ -98,7 +98,7 @@ class CPTEC extends Endpoint
      * @return array
      * @throws BrasilApiException
      */
-    public function oceanWeatherInCityInXDays(int $cityCode, int $days = 6): array
+    public function oceanForecastInCityInXDays(int $cityCode, int $days = 6): array
     {
         return $this->client->request("/cptec/v1/ondas/{$cityCode}/{$days}");
     }
