@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://raw.githubusercontent.com/BrasilAPI/BrasilAPI/master/public/brasilapi-logo-small.png">Brasil API</h1>
+<h1 align="center"><img src="https://raw.githubusercontent.com/BrasilAPI/BrasilAPI/master/public/brasilapi-logo-small.png"></h1>
 
 <div align="center">
   <p>
