@@ -90,7 +90,7 @@ $brasilApi->cep()->get('01001000');
 Buscando um CEP específico.
 
 ```php
-$brasilApi->cep2()->get('01001000');
+$brasilApi->cepV2()->get('01001000');
 ```
 
 ### CNPJ
