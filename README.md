@@ -142,13 +142,13 @@ $brasilApi->cptec()->weatherInCityInXDays(999, 6);
 Buscando a previsão oceânica em uma cidade específica.
 
 ```php
-$brasilApi->cptec()->oceanWeatherInCity(999);
+$brasilApi->cptec()->oceanForecastInCity(999);
 ```
 
 Buscando a previsão oceânica em uma cidade específica no período de X dias.
 
 ```php
-$brasilApi->cptec()->oceanWeatherInCityInXDays(999, 6);
+$brasilApi->cptec()->oceanForecastInCityInXDays(999, 6);
 ```
 
 ### DDD
