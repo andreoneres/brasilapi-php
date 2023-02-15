@@ -21,13 +21,13 @@ Você pode acessar a documentação oficial da BrasilAPI acessando esse [link](h
   - [Instalação](#instalação)
   - [Utilização](#utilização)
   - [Endpoints](#endpoints)
-    - [BANKS](#banks)
+    - [Bancos](#bancos)
     - [CEP](#cep)
     - [CEP V2](#cep-v2)
     - [CNPJ](#cnpj)
     - [CPTEC](#cptec)
     - [DDD](#ddd)
-    - [Feriados Nacionais](#feriados-nacionais)
+    - [Feriados](#feriados)
     - [FIPE](#fipe)
     - [IBGE](#ibge)
     - [ISBN](#isbn)
@@ -71,7 +71,7 @@ $address = $brasilApi->cep()->get('01001000');
 
 Abaixo você pode ver todos os endpoints disponíveis, por padrão, na biblioteca:
 
-### BANKS
+### Bancos
 
 Buscando todos os bancos disponíveis na API.
 ```php
@@ -159,7 +159,7 @@ Buscando o estado e cidades que possuem determinado DDD.
 $brasilApi->ddd()->get(77);
 ```
 
-### Feriados Nacionais
+### Feriados
 
 Buscando todos os feriados nacionais.
 
