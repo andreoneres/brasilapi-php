@@ -290,14 +290,14 @@ $brasilApi = new Client();
 $brasilApi->addEndpoint("hope", App\Endpoints\Hope::class);
 ```
 
-**Obs.:** O nome do endpoint deve ser o mesmo que você passou no método `addEndpoint` pois ele será utilizado
-no método mágico __call ao ser chamado.
-
 4. Para utilizar este novo endpoint, você deve chamá-lo da seguinte forma:
 
 ```php
 $address = $brasilApi->hope();
 ```
+
+**Obs.:** O nome do endpoint deve ser o mesmo que você passou no método `addEndpoint` pois ele será utilizado
+no método mágico __call ao ser chamado.
 
 **Obs.2:** Além de criar, você pode sobrescrever endpoints existentes e atualizar os seus métodos.
 Isso pode ser útil caso seja lançada uma nova versão de algum endpoint e você queira utilizá-lo
