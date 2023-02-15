@@ -7,6 +7,9 @@ namespace BrasilApi\Endpoints;
 use BrasilApi\Endpoints\Abstracts\Endpoint;
 use BrasilApi\Exceptions\BrasilApiException;
 
+/**
+ * @see https://brasilapi.com.br/docs#tag/CEP
+ */
 class CEP extends Endpoint
 {
     /**
