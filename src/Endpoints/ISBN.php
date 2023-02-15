@@ -16,12 +16,17 @@ class ISBN extends Endpoint
      * Find informations about a specific book.
      *
      * @param string $bookCode Code of book
+     * @param string|null $providers Data providers
      *
      * @return array
      * @throws BrasilApiException
      */
-    public function book(string $bookCode): array
+    public function book(string $bookCode, ?string $providers = null): array
     {
-        return $this->client->request("/isbn/v1/{$bookCode}");
+        return $this->client->request(
+            "/isbn/v1/{$bookCode}",
+            self::GET,
+            ["providers" => $providers]
+        );
     }
 }
