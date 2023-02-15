@@ -8,7 +8,7 @@
 
 # Introdução
 
-Esse SDK foi construída com o intuito de ser flexível, de forma que todos possam utilizar todas as features 
+Esse SDK foi construído com o intuito de ser flexível, de forma que todos possam utilizar todas as features 
 e versões da BrasilAPI.
 
 Você pode acessar a documentação oficial da BrasilAPI acessando esse [link](https://brasilapi.com.br/docs).
