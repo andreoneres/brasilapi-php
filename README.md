@@ -198,7 +198,7 @@ $brasilApi->ibge()->stateCities('BA');
 Buscando informações de todos os estados brasileiros.
 
 ```php
-$brasilApi->ibge()->states('BA');
+$brasilApi->ibge()->states();
 ```
 
 Buscando informações de um estado específico.
