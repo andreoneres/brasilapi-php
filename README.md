@@ -103,10 +103,10 @@ $brasilApi->cnpj()->get('00000000000191');
 
 ### CPTEC
 
-Buscando uma cidade específica pelo nome.
+Buscando uma cidade pelo nome.
 
 ```php
-$brasilApi->cptec()->city('São Paulo');
+$brasilApi->cptec()->cities('São Paulo');
 ```
 
 Buscando todas as cidades disponíveis.
