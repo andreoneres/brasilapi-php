@@ -56,19 +56,191 @@ $address = $brasilApi->cep()->get('01001000');
 
 Abaixo você pode ver todos os endpoints disponíveis, por padrão, na biblioteca:
 
-* BANKS
-* CEP
-* CEP V2
-* CNPJ
-* CPTEC
-* DDD
-* Feriados Nacionais
-* FIPE
-* IBGE
-* ISBN
-* NCM
-* Registro BR
-* Taxas
+### BANKS
+
+Buscando todos os bancos disponíveis na API.
+```php
+$brasilApi->banks()->getList();
+```
+### CEP
+
+Buscando um CEP específico.
+
+```php
+$brasilApi->cep()->get('01001000');
+```
+
+### CEP V2
+
+Buscando um CEP específico.
+
+```php
+$brasilApi->cep2()->get('01001000');
+```
+
+### CNPJ
+
+Buscando um CNPJ específico.
+
+```php
+$brasilApi->cnpj()->get('00000000000191');
+```
+
+### CPTEC
+
+Buscando uma cidade específica pelo nome.
+
+```php
+$brasilApi->cptec()->city('São Paulo');
+```
+
+Buscando todas as cidades disponíveis.
+
+```php
+$brasilApi->cptec()->cities();
+```
+
+Buscando as informações meteorológicas em todas as capitais dos estados brasileiros.
+
+```php
+$brasilApi->cptec()->weatherInCapitals();
+```
+
+Buscando as informações meteorológicas em um aeroporto específico.
+
+```php
+$brasilApi->cptec()->weatherInAirport('SBGR');
+```
+
+Buscando as informações meteorológicas de uma cidade específica.
+
+```php
+$brasilApi->cptec()->weatherInCity('SBGR');
+```
+
+Buscando as informações meteorológicas de uma cidade específica no período de X dias.
+
+```php
+$brasilApi->cptec()->weatherInCityInXDays(999, 6);
+```
+
+Buscando a previsão oceânica em uma cidade específica.
+
+```php
+$brasilApi->cptec()->oceanWeatherInCity(999);
+```
+
+Buscando a previsão oceânica em uma cidade específica no período de X dias.
+
+```php
+$brasilApi->cptec()->oceanWeatherInCityInXDays(999, 6);
+```
+
+### DDD
+
+Buscando o estado e cidades que possuem determinado DDD.
+
+```php
+$brasilApi->ddd()->get(77);
+```
+
+### Feriados Nacionais
+
+Buscando todos os feriados nacionais.
+
+```php
+$brasilApi->holidays()->getList();
+```
+
+### FIPE
+
+Buscando todas as marcas de veículos referente a um tipo de veículo.
+
+```php
+$brasilApi->fipe()->brandsByTypeVehicle('caminhoes');
+```
+
+Buscando o preço de um veículo específico.
+
+```php
+$brasilApi->fipe()->price('001004-9');
+```
+
+Buscando as tabelas de referência existentes.
+
+```php
+$brasilApi->fipe()->referenceTables();
+```
+
+### IBGE
+
+Buscando todos os municípios de um estado específico.
+
+```php
+$brasilApi->ibge()->stateCities('BA');
+```
+
+Buscando informações de todos os estados brasileiros.
+
+```php
+$brasilApi->ibge()->states('BA');
+```
+
+Buscando informações de um estado específico.
+
+```php
+$brasilApi->ibge()->state('BA');
+```
+
+### ISBN
+
+Buscando informações sobre um livro específico.
+
+```php
+$brasilApi->isbn()->book('9788545702870');
+```
+
+### NCM
+
+Buscando informações sobre todos os NCMs.
+
+```php
+$brasilApi->ncm()->getList();
+```
+
+Buscando informações sobre um NCM específico.
+
+```php
+$brasilApi->ncm()->get('01012100');
+```
+
+Buscando informações de um NCM a partir de um código ou descrição.
+
+```php
+$brasilApi->ncm()->search('01012100');
+```
+
+### Registro BR
+
+Buscando informações de um domínio.
+
+```php
+$brasilApi->registerBr()->domain('google.com');
+```
+
+### Taxas
+
+Buscando as taxas de juros e alguns índices oficiais do Brasil.
+
+```php
+$brasilApi->taxes()->getList();
+```
+
+Buscando informações de uma taxa a partir do seu nome/sigla.
+
+```php
+$brasilApi->taxes()->get('Selic');
+```
 
 ## Criando endpoints
 
