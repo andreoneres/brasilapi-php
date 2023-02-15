@@ -20,6 +20,7 @@ Você pode acessar a documentação oficial da BrasilAPI acessando esse [link](h
 - [Utilização](#utilização)
 - [Endpoints](#endpoints)
 - [Criando endpoints](#criando-endpoints)
+- [Licença](#licença)
 
 ## Requisitos
 
