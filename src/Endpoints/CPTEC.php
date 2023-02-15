@@ -13,27 +13,16 @@ use BrasilApi\Exceptions\BrasilApiException;
 class CPTEC extends Endpoint
 {
     /**
-     * Find a specific CPTEC city from its name.
+     * Find all cities from CPTEC. It is possible to perform a filter by name.
      *
-     * @param string $cityName Name of city
+     * @param string $cityName
      *
      * @return array
      * @throws BrasilApiException
      */
-    public function city(string $cityName): array
+    public function cities(string $cityName = ""): array
     {
         return $this->client->request("/cptec/v1/cidade/{$cityName}");
-    }
-    
-    /**
-     * Find all cities from CPTEC.
-     *
-     * @return array
-     * @throws BrasilApiException
-     */
-    public function cities(): array
-    {
-        return $this->client->request("/cptec/v1/cidade");
     }
     
     /**
