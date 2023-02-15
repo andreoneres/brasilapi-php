@@ -5,9 +5,20 @@ declare(strict_types=1);
 namespace BrasilApi;
 
 use BrasilApi\Endpoints\Abstracts\Endpoint;
+use BrasilApi\Endpoints\Banks;
 use BrasilApi\Endpoints\CEP;
+use BrasilApi\Endpoints\CEP2;
 use BrasilApi\Endpoints\CNPJ;
 use BrasilApi\Endpoints\Collections\Endpoints;
+use BrasilApi\Endpoints\CPTEC;
+use BrasilApi\Endpoints\DDD;
+use BrasilApi\Endpoints\Holidays;
+use BrasilApi\Endpoints\FIPE;
+use BrasilApi\Endpoints\IBGE;
+use BrasilApi\Endpoints\ISBN;
+use BrasilApi\Endpoints\NCM;
+use BrasilApi\Endpoints\RegisterBR;
+use BrasilApi\Endpoints\Taxes;
 use BrasilApi\Exceptions\BrasilApiException;
 use BrasilApi\Exceptions\EndpointNotFound;
 use BrasilApi\Handlers\ResponseHandler;
@@ -17,8 +28,19 @@ use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Exception\RequestException;
 
 /**
+ * @method Banks banks()
  * @method CEP cep()
+ * @method CEP2 cep2()
  * @method CNPJ cnpj()
+ * @method CPTEC cptec()
+ * @method DDD ddd()
+ * @method Holidays holidays()
+ * @method FIPE fipe()
+ * @method IBGE ibge()
+ * @method ISBN isbn()
+ * @method NCM ncm()
+ * @method RegisterBR registerBr()
+ * @method Taxes taxes()
  */
 class Client
 {
@@ -112,8 +134,19 @@ class Client
     private function loadDefaults(): void
     {
         $this->endpoints = new Endpoints([
-            "cep" => CEP::class,
-            "cnpj" => CNPJ::class,
+            "banks"      => Banks::class,
+            "cep"        => CEP::class,
+            "cep2"       => CEP2::class,
+            "cnpj"       => CNPJ::class,
+            "cptec"      => CPTEC::class,
+            "ddd"        => DDD::class,
+            "holidays"   => Holidays::class,
+            "fipe"       => FIPE::class,
+            "ibge"       => IBGE::class,
+            "isbn"       => ISBN::class,
+            "ncm"        => NCM::class,
+            "registerBr" => RegisterBR::class,
+            "taxes"      => Taxes::class,
         ]);
     }
 }
