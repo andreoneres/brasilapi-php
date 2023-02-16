@@ -284,16 +284,25 @@ Exemplo:
 require __DIR__ . '/vendor/autoload.php';
 
 use BrasilApi\Client;
+use BrasilApi\Endpoints\Abstracts\Endpoint;
+
+class Hope extends Endpoint
+{
+    public function getList(): array
+    {
+        return $this->client->request("/hopes/list");
+    }
+}
 
 $brasilApi = new Client();
 
-$brasilApi->addEndpoint("hope", App\Endpoints\Hope::class);
+$brasilApi->addEndpoint("hope", Hope::class);
 ```
 
 4. Para utilizar este novo endpoint, você deve chamá-lo da seguinte forma:
 
 ```php
-$address = $brasilApi->hope();
+$address = $brasilApi->hope()->getList();
 ```
 
 **Obs.:** O nome do endpoint deve ser o mesmo que você passou no método `addEndpoint` pois ele será utilizado
