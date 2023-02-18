@@ -267,11 +267,12 @@ Para adicionar novos ou sobreescrever os já existentes endpoints, você deve se
 2. Nesta classe, você pode implementar todos os métodos que desejar e utilizar o método `$this->client->request()` 
 para enviar as requisições para a API. Lembre-se que a base URL da API já está embutido no 'Client', portanto na uri 
 do método você precisa adicionar apenas o complemento da rota. 
+
 **Exemplo:** 
 
-URL: `https://brasilapi.com.br/api/cep/v2/01001000`
-BASE_URI: `https://brasilapi.com.br/api/`
-URI: `/cep/v2/01001000`;
+URL:      `https://brasilapi.com.br/api/cep/v2/01001000` <br />
+BASE_URI: `https://brasilapi.com.br/api` <br />
+URI:      `/cep/v2/01001000` <br />
 
 3. Para incorporá-lo ao SDK, você deve possuir uma instância de `BrasilApi\Client` e utilizar o método
 `addEndpoint`, passando como parâmetro o nome do endpoint e a classe criada no passo 1.
