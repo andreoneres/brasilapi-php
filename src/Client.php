@@ -56,9 +56,13 @@ class Client
      */
     private Endpoints $endpoints;
     
-    public function __construct(?GuzzleClient $client = null)
+    /**
+     * @param array $config GuzzleHttp\Client extra options
+     */
+    public function __construct(array $config = [])
     {
-        $this->client = $client ?? new GuzzleClient([
+        $this->client = new GuzzleClient([
+            ...$config,
             "base_uri" => self::BASE_URI,
         ]);
         
