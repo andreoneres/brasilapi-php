@@ -1,0 +1,47 @@
+{
+  "cidade": "Brejo Alegre",
+  "estado": "SP",
+  "atualizado_em": "2023-02-19",
+  "clima": [
+    {
+      "data": "2023-02-20",
+      "condicao": "c",
+      "condicao_desc": "Chuva",
+      "min": 20,
+      "max": 31,
+      "indice_uv": 13
+    },
+    {
+      "data": "2023-02-21",
+      "condicao": "c",
+      "condicao_desc": "Chuva",
+      "min": 21,
+      "max": 31,
+      "indice_uv": 13
+    },
+    {
+      "data": "2023-02-22",
+      "condicao": "c",
+      "condicao_desc": "Chuva",
+      "min": 21,
+      "max": 32,
+      "indice_uv": 13
+    },
+    {
+      "data": "2023-02-23",
+      "condicao": "c",
+      "condicao_desc": "Chuva",
+      "min": 22,
+      "max": 32,
+      "indice_uv": 13
+    },
+    {
+      "data": "2023-02-24",
+      "condicao": "ci",
+      "condicao_desc": "Chuvas Isoladas",
+      "min": 22,
+      "max": 32,
+      "indice_uv": 13
+    }
+  ]
+}

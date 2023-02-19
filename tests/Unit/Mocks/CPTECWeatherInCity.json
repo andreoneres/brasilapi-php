@@ -1,0 +1,15 @@
+{
+  "cidade": "Brejo Alegre",
+  "estado": "SP",
+  "atualizado_em": "2023-02-19",
+  "clima": [
+    {
+      "data": "2023-02-20",
+      "condicao": "c",
+      "condicao_desc": "Chuva",
+      "min": 20,
+      "max": 31,
+      "indice_uv": 13
+    }
+  ]
+}

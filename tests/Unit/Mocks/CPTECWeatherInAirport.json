@@ -1,0 +1,12 @@
+{
+  "umidade": 75,
+  "visibilidade": ">10000",
+  "codigo_icao": "SBGR",
+  "pressao_atmosferica": 1011,
+  "vento": 7,
+  "direcao_vento": 360,
+  "condicao": "ps",
+  "condicao_desc": "Predomínio de Sol",
+  "temp": 23,
+  "atualizado_em": "2023-02-15T22:00:00.999Z"
+}

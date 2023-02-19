@@ -1,0 +1,429 @@
+{
+  "cidade": "Rio de Janeiro",
+  "estado": "RJ",
+  "atualizado_em": "2023-02-19",
+  "ondas": [
+    {
+      "data": "2023-02-19",
+      "dados_ondas": [
+        {
+          "hora": "00:00Z",
+          "vento": 6.7,
+          "direcao_vento": "NE",
+          "direcao_vento_desc": "Nordeste",
+          "altura_onda": 1.1,
+          "direcao_onda": "ESE",
+          "direcao_onda_desc": "Lés-sudeste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "03:00Z",
+          "vento": 6.3,
+          "direcao_vento": "NE",
+          "direcao_vento_desc": "Nordeste",
+          "altura_onda": 1,
+          "direcao_onda": "ESE",
+          "direcao_onda_desc": "Lés-sudeste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "06:00Z",
+          "vento": 6.8,
+          "direcao_vento": "NE",
+          "direcao_vento_desc": "Nordeste",
+          "altura_onda": 1.1,
+          "direcao_onda": "ESE",
+          "direcao_onda_desc": "Lés-sudeste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "09:00Z",
+          "vento": 8.1,
+          "direcao_vento": "NE",
+          "direcao_vento_desc": "Nordeste",
+          "altura_onda": 1.2,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "12:00Z",
+          "vento": 8.1,
+          "direcao_vento": "NE",
+          "direcao_vento_desc": "Nordeste",
+          "altura_onda": 1.4,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "15:00Z",
+          "vento": 7.5,
+          "direcao_vento": "ENE",
+          "direcao_vento_desc": "Lés-nordeste",
+          "altura_onda": 1.6,
+          "direcao_onda": "ENE",
+          "direcao_onda_desc": "Lés-nordeste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "18:00Z",
+          "vento": 8.4,
+          "direcao_vento": "E",
+          "direcao_vento_desc": "Leste",
+          "altura_onda": 1.7,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "21:00Z",
+          "vento": 8.5,
+          "direcao_vento": "E",
+          "direcao_vento_desc": "Leste",
+          "altura_onda": 1.7,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        }
+      ]
+    },
+    {
+      "data": "2023-02-20",
+      "dados_ondas": [
+        {
+          "hora": "00:00Z",
+          "vento": 7.7,
+          "direcao_vento": "ENE",
+          "direcao_vento_desc": "Lés-nordeste",
+          "altura_onda": 1.6,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "03:00Z",
+          "vento": 7.5,
+          "direcao_vento": "ENE",
+          "direcao_vento_desc": "Lés-nordeste",
+          "altura_onda": 1.6,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "06:00Z",
+          "vento": 6.5,
+          "direcao_vento": "NE",
+          "direcao_vento_desc": "Nordeste",
+          "altura_onda": 1.7,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "09:00Z",
+          "vento": 6.3,
+          "direcao_vento": "NE",
+          "direcao_vento_desc": "Nordeste",
+          "altura_onda": 1.8,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "12:00Z",
+          "vento": 7.4,
+          "direcao_vento": "NE",
+          "direcao_vento_desc": "Nordeste",
+          "altura_onda": 1.9,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "15:00Z",
+          "vento": 7.6,
+          "direcao_vento": "ENE",
+          "direcao_vento_desc": "Lés-nordeste",
+          "altura_onda": 1.9,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "18:00Z",
+          "vento": 7.9,
+          "direcao_vento": "E",
+          "direcao_vento_desc": "Leste",
+          "altura_onda": 1.9,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "21:00Z",
+          "vento": 7.3,
+          "direcao_vento": "E",
+          "direcao_vento_desc": "Leste",
+          "altura_onda": 1.8,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        }
+      ]
+    },
+    {
+      "data": "2023-02-21",
+      "dados_ondas": [
+        {
+          "hora": "00:00Z",
+          "vento": 8.4,
+          "direcao_vento": "ENE",
+          "direcao_vento_desc": "Lés-nordeste",
+          "altura_onda": 1.8,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "03:00Z",
+          "vento": 8.1,
+          "direcao_vento": "NE",
+          "direcao_vento_desc": "Nordeste",
+          "altura_onda": 1.8,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "06:00Z",
+          "vento": 8.2,
+          "direcao_vento": "NE",
+          "direcao_vento_desc": "Nordeste",
+          "altura_onda": 1.7,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "09:00Z",
+          "vento": 7.8,
+          "direcao_vento": "NE",
+          "direcao_vento_desc": "Nordeste",
+          "altura_onda": 1.7,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "12:00Z",
+          "vento": 7.4,
+          "direcao_vento": "NE",
+          "direcao_vento_desc": "Nordeste",
+          "altura_onda": 1.6,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "15:00Z",
+          "vento": 5.9,
+          "direcao_vento": "ENE",
+          "direcao_vento_desc": "Lés-nordeste",
+          "altura_onda": 1.6,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "18:00Z",
+          "vento": 8.8,
+          "direcao_vento": "ENE",
+          "direcao_vento_desc": "Lés-nordeste",
+          "altura_onda": 1.6,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "21:00Z",
+          "vento": 9.1,
+          "direcao_vento": "ENE",
+          "direcao_vento_desc": "Lés-nordeste",
+          "altura_onda": 1.6,
+          "direcao_onda": "ESE",
+          "direcao_onda_desc": "Lés-sudeste",
+          "agitation": "Fraco"
+        }
+      ]
+    },
+    {
+      "data": "2023-02-22",
+      "dados_ondas": [
+        {
+          "hora": "00:00Z",
+          "vento": 9.6,
+          "direcao_vento": "NE",
+          "direcao_vento_desc": "Nordeste",
+          "altura_onda": 1.6,
+          "direcao_onda": "ESE",
+          "direcao_onda_desc": "Lés-sudeste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "03:00Z",
+          "vento": 6.8,
+          "direcao_vento": "NE",
+          "direcao_vento_desc": "Nordeste",
+          "altura_onda": 1.4,
+          "direcao_onda": "ESE",
+          "direcao_onda_desc": "Lés-sudeste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "06:00Z",
+          "vento": 2.9,
+          "direcao_vento": "N",
+          "direcao_vento_desc": "Norte",
+          "altura_onda": 1.2,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "09:00Z",
+          "vento": 5.8,
+          "direcao_vento": "W",
+          "direcao_vento_desc": "Oeste",
+          "altura_onda": 1.1,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "12:00Z",
+          "vento": 5.1,
+          "direcao_vento": "WSW",
+          "altura_onda": 1.1,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "15:00Z",
+          "vento": 2.9,
+          "direcao_vento": "S",
+          "direcao_vento_desc": "Sul",
+          "altura_onda": 1,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "18:00Z",
+          "vento": 4,
+          "direcao_vento": "S",
+          "direcao_vento_desc": "Sul",
+          "altura_onda": 1,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "21:00Z",
+          "vento": 2.6,
+          "direcao_vento": "SSE",
+          "direcao_vento_desc": "Sul-sudeste",
+          "altura_onda": 0.9,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        }
+      ]
+    },
+    {
+      "data": "2023-02-23",
+      "dados_ondas": [
+        {
+          "hora": "00:00Z",
+          "vento": 1.4,
+          "direcao_vento": "SE",
+          "direcao_vento_desc": "Sudeste",
+          "altura_onda": 0.9,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "03:00Z",
+          "vento": 1.7,
+          "direcao_vento": "NNW",
+          "altura_onda": 0.8,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "06:00Z",
+          "vento": 1.5,
+          "direcao_vento": "NNW",
+          "altura_onda": 0.8,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "09:00Z",
+          "vento": 2.9,
+          "direcao_vento": "NE",
+          "direcao_vento_desc": "Nordeste",
+          "altura_onda": 0.7,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "12:00Z",
+          "vento": 3.2,
+          "direcao_vento": "NE",
+          "direcao_vento_desc": "Nordeste",
+          "altura_onda": 0.7,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "15:00Z",
+          "vento": 4.3,
+          "direcao_vento": "E",
+          "direcao_vento_desc": "Leste",
+          "altura_onda": 0.7,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "18:00Z",
+          "vento": 6.3,
+          "direcao_vento": "E",
+          "direcao_vento_desc": "Leste",
+          "altura_onda": 0.7,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        },
+        {
+          "hora": "21:00Z",
+          "vento": 6,
+          "direcao_vento": "ENE",
+          "direcao_vento_desc": "Lés-nordeste",
+          "altura_onda": 0.7,
+          "direcao_onda": "E",
+          "direcao_onda_desc": "Leste",
+          "agitation": "Fraco"
+        }
+      ]
+    }
+  ]
+}
