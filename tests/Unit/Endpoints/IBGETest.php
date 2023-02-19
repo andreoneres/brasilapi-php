@@ -24,13 +24,17 @@ test("should search all cities of a specific state", function () {
     $brasilApi = $this->buildClient($container, $this->mocks["stateCities"]);
     
     $uf = "AL";
-    $address = $brasilApi->ibge()->stateCities($uf);
+    $providers = "gov";
+    $address = $brasilApi->ibge()->stateCities($uf, $providers);
     
     expect($address)
         ->toEqual($this->arrayMock("IBGEStateCities"));
     
     expect($this->getRequestUri($container[0]))
         ->toBe("/api/ibge/municipios/v1/{$uf}");
+    
+    expect($this->getQueryString($container[0]))
+        ->toBe("providers={$providers}");
     
     expect($this->getRequestMethod($container[0]))
         ->toBe("GET");

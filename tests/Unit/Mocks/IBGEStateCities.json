@@ -1,10 +1,10 @@
 [
   {
-    "nome": "ÁGUA BRANCA (ALAGOAS)",
+    "nome": "ÁGUA BRANCA",
     "codigo_ibge": "2700102"
   },
   {
-    "nome": "ANADIA (ALAGOAS)",
+    "nome": "ANADIA",
     "codigo_ibge": "2700201"
   },
   {
@@ -12,7 +12,7 @@
     "codigo_ibge": "2700300"
   },
   {
-    "nome": "ATALAIA (ALAGOAS)",
+    "nome": "ATALAIA",
     "codigo_ibge": "2700409"
   },
   {
@@ -20,15 +20,15 @@
     "codigo_ibge": "2700508"
   },
   {
-    "nome": "BARRA DE SÃO MIGUEL (ALAGOAS)",
+    "nome": "BARRA DE SÃO MIGUEL",
     "codigo_ibge": "2700607"
   },
   {
-    "nome": "BATALHA (ALAGOAS)",
+    "nome": "BATALHA",
     "codigo_ibge": "2700706"
   },
   {
-    "nome": "BELÉM (ALAGOAS)",
+    "nome": "BELÉM",
     "codigo_ibge": "2700805"
   },
   {
@@ -48,19 +48,19 @@
     "codigo_ibge": "2701209"
   },
   {
-    "nome": "CAJUEIRO (ALAGOAS)",
+    "nome": "CAJUEIRO",
     "codigo_ibge": "2701308"
   },
   {
-    "nome": "CAMPESTRE (ALAGOAS)",
+    "nome": "CAMPESTRE",
     "codigo_ibge": "2701357"
   },
   {
-    "nome": "CAMPO ALEGRE (ALAGOAS)",
+    "nome": "CAMPO ALEGRE",
     "codigo_ibge": "2701407"
   },
   {
-    "nome": "CAMPO GRANDE (ALAGOAS)",
+    "nome": "CAMPO GRANDE",
     "codigo_ibge": "2701506"
   },
   {
@@ -68,7 +68,7 @@
     "codigo_ibge": "2701605"
   },
   {
-    "nome": "CAPELA (ALAGOAS)",
+    "nome": "CAPELA",
     "codigo_ibge": "2701704"
   },
   {
@@ -80,7 +80,7 @@
     "codigo_ibge": "2701902"
   },
   {
-    "nome": "COITÉ DO NOIA",
+    "nome": "COITÉ DO NÓIA",
     "codigo_ibge": "2702009"
   },
   {
@@ -100,7 +100,7 @@
     "codigo_ibge": "2702355"
   },
   {
-    "nome": "DELMIRO GOUVEIA (ALAGOAS)",
+    "nome": "DELMIRO GOUVEIA",
     "codigo_ibge": "2702405"
   },
   {
@@ -136,7 +136,7 @@
     "codigo_ibge": "2703106"
   },
   {
-    "nome": "IGREJA NOVA (ALAGOAS)",
+    "nome": "IGREJA NOVA",
     "codigo_ibge": "2703205"
   },
   {
@@ -168,7 +168,7 @@
     "codigo_ibge": "2703809"
   },
   {
-    "nome": "JUNDIÁ (ALAGOAS)",
+    "nome": "JUNDIÁ",
     "codigo_ibge": "2703908"
   },
   {
@@ -188,7 +188,7 @@
     "codigo_ibge": "2704302"
   },
   {
-    "nome": "MAJOR IZIDORO",
+    "nome": "MAJOR ISIDORO",
     "codigo_ibge": "2704401"
   },
   {
@@ -196,11 +196,11 @@
     "codigo_ibge": "2704500"
   },
   {
-    "nome": "MARAVILHA (ALAGOAS)",
+    "nome": "MARAVILHA",
     "codigo_ibge": "2704609"
   },
   {
-    "nome": "MARECHAL DEODORO (ALAGOAS)",
+    "nome": "MARECHAL DEODORO",
     "codigo_ibge": "2704708"
   },
   {
@@ -208,7 +208,7 @@
     "codigo_ibge": "2704807"
   },
   {
-    "nome": "MAR VERMELHO (ALAGOAS)",
+    "nome": "MAR VERMELHO",
     "codigo_ibge": "2704906"
   },
   {
@@ -220,7 +220,7 @@
     "codigo_ibge": "2705101"
   },
   {
-    "nome": "MESSIAS (ALAGOAS)",
+    "nome": "MESSIAS",
     "codigo_ibge": "2705200"
   },
   {
@@ -232,7 +232,7 @@
     "codigo_ibge": "2705408"
   },
   {
-    "nome": "MURICI (ALAGOAS)",
+    "nome": "MURICI",
     "codigo_ibge": "2705507"
   },
   {
@@ -252,15 +252,15 @@
     "codigo_ibge": "2705903"
   },
   {
-    "nome": "OLIVENÇA (ALAGOAS)",
+    "nome": "OLIVENÇA",
     "codigo_ibge": "2706000"
   },
   {
-    "nome": "OURO BRANCO (ALAGOAS)",
+    "nome": "OURO BRANCO",
     "codigo_ibge": "2706109"
   },
   {
-    "nome": "PALESTINA (ALAGOAS)",
+    "nome": "PALESTINA",
     "codigo_ibge": "2706208"
   },
   {
@@ -268,7 +268,7 @@
     "codigo_ibge": "2706307"
   },
   {
-    "nome": "PÃO DE AÇÚCAR (ALAGOAS)",
+    "nome": "PÃO DE AÇÚCAR",
     "codigo_ibge": "2706406"
   },
   {
@@ -288,7 +288,7 @@
     "codigo_ibge": "2706604"
   },
   {
-    "nome": "PENEDO (ALAGOAS)",
+    "nome": "PENEDO",
     "codigo_ibge": "2706703"
   },
   {
@@ -296,7 +296,7 @@
     "codigo_ibge": "2706802"
   },
   {
-    "nome": "PILAR (ALAGOAS)",
+    "nome": "PILAR",
     "codigo_ibge": "2706901"
   },
   {
@@ -304,7 +304,7 @@
     "codigo_ibge": "2707008"
   },
   {
-    "nome": "PIRANHAS (ALAGOAS)",
+    "nome": "PIRANHAS",
     "codigo_ibge": "2707107"
   },
   {
@@ -332,7 +332,7 @@
     "codigo_ibge": "2707701"
   },
   {
-    "nome": "ROTEIRO (ALAGOAS)",
+    "nome": "ROTEIRO",
     "codigo_ibge": "2707800"
   },
   {
@@ -348,7 +348,7 @@
     "codigo_ibge": "2708105"
   },
   {
-    "nome": "SÃO BRÁS (ALAGOAS)",
+    "nome": "SÃO BRÁS",
     "codigo_ibge": "2708204"
   },
   {
@@ -372,7 +372,7 @@
     "codigo_ibge": "2708709"
   },
   {
-    "nome": "SÃO SEBASTIÃO (ALAGOAS)",
+    "nome": "SÃO SEBASTIÃO",
     "codigo_ibge": "2708808"
   },
   {
@@ -392,7 +392,7 @@
     "codigo_ibge": "2709103"
   },
   {
-    "nome": "TEOTÔNIO VILELA (ALAGOAS)",
+    "nome": "TEOTÔNIO VILELA",
     "codigo_ibge": "2709152"
   },
   {
@@ -404,7 +404,7 @@
     "codigo_ibge": "2709301"
   },
   {
-    "nome": "VIÇOSA (ALAGOAS)",
+    "nome": "VIÇOSA",
     "codigo_ibge": "2709400"
   }
 ]
