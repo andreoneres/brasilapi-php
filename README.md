@@ -35,6 +35,8 @@ Você pode acessar a documentação oficial da BrasilAPI acessando esse [link](h
     - [Registro BR](#registro-br)
     - [Taxas](#taxas)
   - [Criando endpoints](#criando-endpoints)
+  - [Testes](#testes)
+  - [Contribuindo](#contribuindo)
   - [Licença](#licença)
 
 ## Requisitos
@@ -324,6 +326,29 @@ ele será utilizado na busca dinâmica do endpoint através do método mágico `
 **Obs.2:** Além de criar, você pode sobrescrever endpoints existentes e atualizar os seus métodos.
 Isso pode ser útil caso seja lançada uma nova versão de algum endpoint e você queira utilizá-lo
 imediatamente. Dessa forma, você pode sobrescrever o endpoint existente e alterar a sua URI.
+
+## Testes
+
+Neste projeto é utilizado o [Pest](https://pestphp.com/docs) para a implementação de testes automatizados.
+Para executá-los, instale as dependências de desenvolvimento, caso não tenha instalado, e execute o seguinte comando:
+
+```bash
+composer test
+```
+
+## Contribuindo
+
+Para contribuir com o projeto, você deve seguir os seguintes passos:
+
+1. Faça um fork do projeto;
+2. Crie uma branch para sua alteração: `git checkout -b feat-fix-refactor/my-changes`;
+3. Faça commit das suas alterações: `git commit -m 'feat-fix-refactor: My changes'`;
+4. Faça push para a sua branch: `git push origin feat-fix-refactor/my-changes`;
+5. Abra um pull request.
+6. Aguarde a análise do seu pull request.
+7. Se seu pull request for aceito, ele será mesclado com a branch `main`.
+
+**Obs.:** Não se esqueça de criar testes para o seu código.
 
 ## Licença
 
