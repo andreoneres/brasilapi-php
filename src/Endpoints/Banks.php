@@ -22,4 +22,17 @@ class Banks extends Endpoint
     {
         return $this->client->request("/banks/v1");
     }
+    
+    /**
+     * Find a specific bank by code.
+     *
+     * @param int $bankCode Code of the bank
+     *
+     * @return array
+     * @throws BrasilApiException
+     */
+    public function get(int $bankCode): array
+    {
+        return $this->client->request("/banks/v1/{$bankCode}");
+    }
 }
