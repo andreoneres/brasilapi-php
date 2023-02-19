@@ -15,12 +15,12 @@ class DDD extends Endpoint
     /**
      * Find state by DDD.
      *
-     * @param string $ddd DDD
+     * @param int $ddd DDD
      *
      * @return array
      * @throws BrasilApiException
      */
-    public function get(string $ddd): array
+    public function get(int $ddd): array
     {
         return $this->client->request("/ddd/v1/{$ddd}");
     }
