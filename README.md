@@ -77,6 +77,12 @@ Buscando todos os bancos disponíveis na API.
 ```php
 $brasilApi->banks()->getList();
 ```
+
+Buscando um banco específico pelo seu código.
+```php
+$brasilApi->banks()->get(1);
+```
+
 ### CEP
 
 Buscando um CEP específico.
