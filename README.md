@@ -136,7 +136,7 @@ $brasilApi->cptec()->weatherInAirport('SBGR');
 Buscando as informações meteorológicas de uma cidade específica pelo seu código.
 
 ```php
-$brasilApi->cptec()->weatherInCity('SBGR');
+$brasilApi->cptec()->weatherInCity(999);
 ```
 
 Buscando as informações meteorológicas de uma cidade específica no período de X dias.
