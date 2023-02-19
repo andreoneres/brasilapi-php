@@ -54,9 +54,7 @@ abstract class BrasilApiTestCase extends TestCase
         $handler = HandlerStack::create($mock);
         $handler->push($history);
         
-        $client = new GuzzleClient(["handler" => $handler,]);
-        
-        return new Client($client);
+        return new Client(["handler" => $handler]);
     }
     
     /**
