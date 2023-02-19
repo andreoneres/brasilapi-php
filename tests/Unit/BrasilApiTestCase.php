@@ -22,7 +22,7 @@ abstract class BrasilApiTestCase extends TestCase
      */
     protected function arrayMock(string $mockName): array
     {
-        $content = file_get_contents(__DIR__ . "/Mocks/$mockName.json");
+        $content = $this->jsonMock($mockName);
         
         return json_decode($content, true);
     }
