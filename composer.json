@@ -12,5 +12,16 @@
   "require": {
     "php": ">=8.1",
     "guzzlehttp/guzzle": ">=7.4"
+  },
+  "require-dev": {
+    "pestphp/pest": "^1.22"
+  },
+  "scripts": {
+    "test": "./vendor/bin/pest"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
   }
 }
