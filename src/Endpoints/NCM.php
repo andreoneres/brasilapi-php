@@ -48,7 +48,7 @@ class NCM extends Endpoint
     {
         return $this->client->request("/ncm/v1",
             self::GET,
-            ["search" => $search]
+            ["query" => ["search" => $search]]
         );
     }
 }
