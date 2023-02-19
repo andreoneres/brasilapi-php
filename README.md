@@ -173,10 +173,10 @@ $brasilApi->ddd()->get(77);
 
 ### Feriados
 
-Buscando todos os feriados nacionais.
+Buscando todos os feriados nacionais em determinado ano.
 
 ```php
-$brasilApi->holidays()->getList();
+$brasilApi->holidays()->fromYear(2022);
 ```
 
 ### FIPE
