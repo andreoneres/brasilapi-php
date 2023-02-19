@@ -26,7 +26,7 @@ class IBGE extends Endpoint
         return $this->client->request(
             "/ibge/municipios/v1/{$stateCode}",
             self::GET,
-            ["providers" => $providers]
+            ["query" => ["providers" => $providers]]
         );
     }
     

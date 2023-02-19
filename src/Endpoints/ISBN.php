@@ -26,7 +26,7 @@ class ISBN extends Endpoint
         return $this->client->request(
             "/isbn/v1/{$bookCode}",
             self::GET,
-            ["providers" => $providers]
+            ["query" => ["providers" => $providers]]
         );
     }
 }
