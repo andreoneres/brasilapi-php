@@ -19,9 +19,9 @@ test("should search for information about a specific book", function () {
     
     $code = "9788545702870";
     $providers = "open-library";
-    $address = $brasilApi->isbn()->book($code, $providers);
+    $book = $brasilApi->isbn()->book($code, $providers);
     
-    expect($address)
+    expect($book)
         ->toEqual($this->arrayMock("ISBNBook"));
     
     expect($this->getRequestUri($container[0]))

@@ -23,9 +23,9 @@ test("should search information about all NCMs", function () {
     $container = [];
     $brasilApi = $this->buildClient($container, $this->mocks["list"]);
 
-    $address = $brasilApi->ncm()->getList();
+    $infos = $brasilApi->ncm()->getList();
     
-    expect($address)
+    expect($infos)
         ->toEqual($this->arrayMock("NCMList"));
     
     expect($this->getRequestUri($container[0]))
@@ -40,9 +40,9 @@ test("should search for information about a specific NCM", function () {
     $brasilApi = $this->buildClient($container, $this->mocks["ncm"]);
     
     $code = "01012100";
-    $address = $brasilApi->ncm()->get($code);
+    $infos = $brasilApi->ncm()->get($code);
     
-    expect($address)
+    expect($infos)
         ->toEqual($this->arrayMock("NCM"));
     
     expect($this->getRequestUri($container[0]))
@@ -57,9 +57,9 @@ test("should search for information about a specific NCM by code or description"
     $brasilApi = $this->buildClient($container, $this->mocks["ncmSearch"]);
     
     $code = "01012100";
-    $address = $brasilApi->ncm()->search($code);
+    $infos = $brasilApi->ncm()->search($code);
     
-    expect($address)
+    expect($infos)
         ->toEqual($this->arrayMock("NCMSearch"));
     
     expect($this->getRequestUri($container[0]))

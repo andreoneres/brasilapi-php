@@ -25,9 +25,9 @@ test("should search all cities of a specific state", function () {
     
     $uf = "AL";
     $providers = "gov";
-    $address = $brasilApi->ibge()->stateCities($uf, $providers);
+    $cities = $brasilApi->ibge()->stateCities($uf, $providers);
     
-    expect($address)
+    expect($cities)
         ->toEqual($this->arrayMock("IBGEStateCities"));
     
     expect($this->getRequestUri($container[0]))
@@ -44,9 +44,9 @@ test("should search for information from all Brazilian states", function () {
     $container = [];
     $brasilApi = $this->buildClient($container, $this->mocks["states"]);
     
-    $address = $brasilApi->ibge()->states();
+    $states = $brasilApi->ibge()->states();
     
-    expect($address)
+    expect($states)
         ->toEqual($this->arrayMock("IBGEStates"));
     
     expect($this->getRequestUri($container[0]))
@@ -61,9 +61,9 @@ test("should information from a specific state", function () {
     $brasilApi = $this->buildClient($container, $this->mocks["state"]);
     
     $uf = "AL";
-    $address = $brasilApi->ibge()->state($uf);
+    $infos = $brasilApi->ibge()->state($uf);
     
-    expect($address)
+    expect($infos)
         ->toEqual($this->arrayMock("IBGEState"));
     
     expect($this->getRequestUri($container[0]))

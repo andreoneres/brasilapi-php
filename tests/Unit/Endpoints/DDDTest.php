@@ -18,9 +18,9 @@ test("should search for the state and cities that have a certain area code", fun
     $brasilApi = $this->buildClient($container, $this->mocks["DDD"]);
     
     $ddd = 21;
-    $address = $brasilApi->ddd()->get($ddd);
+    $infos = $brasilApi->ddd()->get($ddd);
     
-    expect($address)
+    expect($infos)
         ->toEqual($this->arrayMock("DDD"));
     
     expect($this->getRequestUri($container[0]))

@@ -18,9 +18,9 @@ test("should search all national holidays", function () {
     $brasilApi = $this->buildClient($container, $this->mocks["holiday"]);
     
     $year = 2023;
-    $address = $brasilApi->holidays()->fromYear($year);
+    $holidays = $brasilApi->holidays()->fromYear($year);
     
-    expect($address)
+    expect($holidays)
         ->toEqual($this->arrayMock("Holidays"));
     
     expect($this->getRequestUri($container[0]))
