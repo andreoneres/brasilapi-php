@@ -1,0 +1,15 @@
+{
+  "cep": "01001000",
+  "state": "SP",
+  "city": "São Paulo",
+  "neighborhood": "Sé",
+  "street": "Praça da Sé",
+  "service": "correios",
+  "location": {
+    "type": "Point",
+    "coordinates": {
+      "longitude": "-46.633080956332904",
+      "latitude": "-23.550389799999998"
+    }
+  }
+}
