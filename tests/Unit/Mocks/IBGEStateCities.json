@@ -1,0 +1,410 @@
+[
+  {
+    "nome": "ÁGUA BRANCA (ALAGOAS)",
+    "codigo_ibge": "2700102"
+  },
+  {
+    "nome": "ANADIA (ALAGOAS)",
+    "codigo_ibge": "2700201"
+  },
+  {
+    "nome": "ARAPIRACA",
+    "codigo_ibge": "2700300"
+  },
+  {
+    "nome": "ATALAIA (ALAGOAS)",
+    "codigo_ibge": "2700409"
+  },
+  {
+    "nome": "BARRA DE SANTO ANTÔNIO",
+    "codigo_ibge": "2700508"
+  },
+  {
+    "nome": "BARRA DE SÃO MIGUEL (ALAGOAS)",
+    "codigo_ibge": "2700607"
+  },
+  {
+    "nome": "BATALHA (ALAGOAS)",
+    "codigo_ibge": "2700706"
+  },
+  {
+    "nome": "BELÉM (ALAGOAS)",
+    "codigo_ibge": "2700805"
+  },
+  {
+    "nome": "BELO MONTE",
+    "codigo_ibge": "2700904"
+  },
+  {
+    "nome": "BOCA DA MATA",
+    "codigo_ibge": "2701001"
+  },
+  {
+    "nome": "BRANQUINHA",
+    "codigo_ibge": "2701100"
+  },
+  {
+    "nome": "CACIMBINHAS",
+    "codigo_ibge": "2701209"
+  },
+  {
+    "nome": "CAJUEIRO (ALAGOAS)",
+    "codigo_ibge": "2701308"
+  },
+  {
+    "nome": "CAMPESTRE (ALAGOAS)",
+    "codigo_ibge": "2701357"
+  },
+  {
+    "nome": "CAMPO ALEGRE (ALAGOAS)",
+    "codigo_ibge": "2701407"
+  },
+  {
+    "nome": "CAMPO GRANDE (ALAGOAS)",
+    "codigo_ibge": "2701506"
+  },
+  {
+    "nome": "CANAPI",
+    "codigo_ibge": "2701605"
+  },
+  {
+    "nome": "CAPELA (ALAGOAS)",
+    "codigo_ibge": "2701704"
+  },
+  {
+    "nome": "CARNEIROS",
+    "codigo_ibge": "2701803"
+  },
+  {
+    "nome": "CHÃ PRETA",
+    "codigo_ibge": "2701902"
+  },
+  {
+    "nome": "COITÉ DO NOIA",
+    "codigo_ibge": "2702009"
+  },
+  {
+    "nome": "COLÔNIA LEOPOLDINA",
+    "codigo_ibge": "2702108"
+  },
+  {
+    "nome": "COQUEIRO SECO",
+    "codigo_ibge": "2702207"
+  },
+  {
+    "nome": "CORURIPE",
+    "codigo_ibge": "2702306"
+  },
+  {
+    "nome": "CRAÍBAS",
+    "codigo_ibge": "2702355"
+  },
+  {
+    "nome": "DELMIRO GOUVEIA (ALAGOAS)",
+    "codigo_ibge": "2702405"
+  },
+  {
+    "nome": "DOIS RIACHOS",
+    "codigo_ibge": "2702504"
+  },
+  {
+    "nome": "ESTRELA DE ALAGOAS",
+    "codigo_ibge": "2702553"
+  },
+  {
+    "nome": "FEIRA GRANDE",
+    "codigo_ibge": "2702603"
+  },
+  {
+    "nome": "FELIZ DESERTO",
+    "codigo_ibge": "2702702"
+  },
+  {
+    "nome": "FLEXEIRAS",
+    "codigo_ibge": "2702801"
+  },
+  {
+    "nome": "GIRAU DO PONCIANO",
+    "codigo_ibge": "2702900"
+  },
+  {
+    "nome": "IBATEGUARA",
+    "codigo_ibge": "2703007"
+  },
+  {
+    "nome": "IGACI",
+    "codigo_ibge": "2703106"
+  },
+  {
+    "nome": "IGREJA NOVA (ALAGOAS)",
+    "codigo_ibge": "2703205"
+  },
+  {
+    "nome": "INHAPI",
+    "codigo_ibge": "2703304"
+  },
+  {
+    "nome": "JACARÉ DOS HOMENS",
+    "codigo_ibge": "2703403"
+  },
+  {
+    "nome": "JACUÍPE",
+    "codigo_ibge": "2703502"
+  },
+  {
+    "nome": "JAPARATINGA",
+    "codigo_ibge": "2703601"
+  },
+  {
+    "nome": "JARAMATAIA",
+    "codigo_ibge": "2703700"
+  },
+  {
+    "nome": "JEQUIÁ DA PRAIA",
+    "codigo_ibge": "2703759"
+  },
+  {
+    "nome": "JOAQUIM GOMES",
+    "codigo_ibge": "2703809"
+  },
+  {
+    "nome": "JUNDIÁ (ALAGOAS)",
+    "codigo_ibge": "2703908"
+  },
+  {
+    "nome": "JUNQUEIRO",
+    "codigo_ibge": "2704005"
+  },
+  {
+    "nome": "LAGOA DA CANOA",
+    "codigo_ibge": "2704104"
+  },
+  {
+    "nome": "LIMOEIRO DE ANADIA",
+    "codigo_ibge": "2704203"
+  },
+  {
+    "nome": "MACEIÓ",
+    "codigo_ibge": "2704302"
+  },
+  {
+    "nome": "MAJOR IZIDORO",
+    "codigo_ibge": "2704401"
+  },
+  {
+    "nome": "MARAGOGI",
+    "codigo_ibge": "2704500"
+  },
+  {
+    "nome": "MARAVILHA (ALAGOAS)",
+    "codigo_ibge": "2704609"
+  },
+  {
+    "nome": "MARECHAL DEODORO (ALAGOAS)",
+    "codigo_ibge": "2704708"
+  },
+  {
+    "nome": "MARIBONDO",
+    "codigo_ibge": "2704807"
+  },
+  {
+    "nome": "MAR VERMELHO (ALAGOAS)",
+    "codigo_ibge": "2704906"
+  },
+  {
+    "nome": "MATA GRANDE",
+    "codigo_ibge": "2705002"
+  },
+  {
+    "nome": "MATRIZ DE CAMARAGIBE",
+    "codigo_ibge": "2705101"
+  },
+  {
+    "nome": "MESSIAS (ALAGOAS)",
+    "codigo_ibge": "2705200"
+  },
+  {
+    "nome": "MINADOR DO NEGRÃO",
+    "codigo_ibge": "2705309"
+  },
+  {
+    "nome": "MONTEIRÓPOLIS",
+    "codigo_ibge": "2705408"
+  },
+  {
+    "nome": "MURICI (ALAGOAS)",
+    "codigo_ibge": "2705507"
+  },
+  {
+    "nome": "NOVO LINO",
+    "codigo_ibge": "2705606"
+  },
+  {
+    "nome": "OLHO D'ÁGUA DAS FLORES",
+    "codigo_ibge": "2705705"
+  },
+  {
+    "nome": "OLHO D'ÁGUA DO CASADO",
+    "codigo_ibge": "2705804"
+  },
+  {
+    "nome": "OLHO D'ÁGUA GRANDE",
+    "codigo_ibge": "2705903"
+  },
+  {
+    "nome": "OLIVENÇA (ALAGOAS)",
+    "codigo_ibge": "2706000"
+  },
+  {
+    "nome": "OURO BRANCO (ALAGOAS)",
+    "codigo_ibge": "2706109"
+  },
+  {
+    "nome": "PALESTINA (ALAGOAS)",
+    "codigo_ibge": "2706208"
+  },
+  {
+    "nome": "PALMEIRA DOS ÍNDIOS",
+    "codigo_ibge": "2706307"
+  },
+  {
+    "nome": "PÃO DE AÇÚCAR (ALAGOAS)",
+    "codigo_ibge": "2706406"
+  },
+  {
+    "nome": "PARICONHA",
+    "codigo_ibge": "2706422"
+  },
+  {
+    "nome": "PARIPUEIRA",
+    "codigo_ibge": "2706448"
+  },
+  {
+    "nome": "PASSO DE CAMARAGIBE",
+    "codigo_ibge": "2706505"
+  },
+  {
+    "nome": "PAULO JACINTO",
+    "codigo_ibge": "2706604"
+  },
+  {
+    "nome": "PENEDO (ALAGOAS)",
+    "codigo_ibge": "2706703"
+  },
+  {
+    "nome": "PIAÇABUÇU",
+    "codigo_ibge": "2706802"
+  },
+  {
+    "nome": "PILAR (ALAGOAS)",
+    "codigo_ibge": "2706901"
+  },
+  {
+    "nome": "PINDOBA",
+    "codigo_ibge": "2707008"
+  },
+  {
+    "nome": "PIRANHAS (ALAGOAS)",
+    "codigo_ibge": "2707107"
+  },
+  {
+    "nome": "POÇO DAS TRINCHEIRAS",
+    "codigo_ibge": "2707206"
+  },
+  {
+    "nome": "PORTO CALVO",
+    "codigo_ibge": "2707305"
+  },
+  {
+    "nome": "PORTO DE PEDRAS",
+    "codigo_ibge": "2707404"
+  },
+  {
+    "nome": "PORTO REAL DO COLÉGIO",
+    "codigo_ibge": "2707503"
+  },
+  {
+    "nome": "QUEBRANGULO",
+    "codigo_ibge": "2707602"
+  },
+  {
+    "nome": "RIO LARGO",
+    "codigo_ibge": "2707701"
+  },
+  {
+    "nome": "ROTEIRO (ALAGOAS)",
+    "codigo_ibge": "2707800"
+  },
+  {
+    "nome": "SANTA LUZIA DO NORTE",
+    "codigo_ibge": "2707909"
+  },
+  {
+    "nome": "SANTANA DO IPANEMA",
+    "codigo_ibge": "2708006"
+  },
+  {
+    "nome": "SANTANA DO MUNDAÚ",
+    "codigo_ibge": "2708105"
+  },
+  {
+    "nome": "SÃO BRÁS (ALAGOAS)",
+    "codigo_ibge": "2708204"
+  },
+  {
+    "nome": "SÃO JOSÉ DA LAJE",
+    "codigo_ibge": "2708303"
+  },
+  {
+    "nome": "SÃO JOSÉ DA TAPERA",
+    "codigo_ibge": "2708402"
+  },
+  {
+    "nome": "SÃO LUÍS DO QUITUNDE",
+    "codigo_ibge": "2708501"
+  },
+  {
+    "nome": "SÃO MIGUEL DOS CAMPOS",
+    "codigo_ibge": "2708600"
+  },
+  {
+    "nome": "SÃO MIGUEL DOS MILAGRES",
+    "codigo_ibge": "2708709"
+  },
+  {
+    "nome": "SÃO SEBASTIÃO (ALAGOAS)",
+    "codigo_ibge": "2708808"
+  },
+  {
+    "nome": "SATUBA",
+    "codigo_ibge": "2708907"
+  },
+  {
+    "nome": "SENADOR RUI PALMEIRA",
+    "codigo_ibge": "2708956"
+  },
+  {
+    "nome": "TANQUE D'ARCA",
+    "codigo_ibge": "2709004"
+  },
+  {
+    "nome": "TAQUARANA",
+    "codigo_ibge": "2709103"
+  },
+  {
+    "nome": "TEOTÔNIO VILELA (ALAGOAS)",
+    "codigo_ibge": "2709152"
+  },
+  {
+    "nome": "TRAIPU",
+    "codigo_ibge": "2709202"
+  },
+  {
+    "nome": "UNIÃO DOS PALMARES",
+    "codigo_ibge": "2709301"
+  },
+  {
+    "nome": "VIÇOSA (ALAGOAS)",
+    "codigo_ibge": "2709400"
+  }
+]

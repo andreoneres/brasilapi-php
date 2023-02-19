@@ -1,0 +1,10 @@
+{
+  "id": 27,
+  "sigla": "AL",
+  "nome": "Alagoas",
+  "regiao": {
+    "id": 2,
+    "sigla": "NE",
+    "nome": "Nordeste"
+  }
+}
