@@ -1,0 +1,40 @@
+{
+  "status_code": 2,
+  "status": "REGISTERED",
+  "fqdn": "brasilapi.com.br",
+  "fqdnace": "",
+  "exempt": false,
+  "hosts": [
+    "bob.ns.cloudflare.com",
+    "lily.ns.cloudflare.com"
+  ],
+  "publication-status": "published",
+  "expires-at": "2025-09-23T00:00:00-03:00",
+  "suggestions": [
+    "agr.br",
+    "app.br",
+    "art.br",
+    "blog.br",
+    "dev.br",
+    "eco.br",
+    "esp.br",
+    "etc.br",
+    "far.br",
+    "flog.br",
+    "imb.br",
+    "ind.br",
+    "inf.br",
+    "log.br",
+    "net.br",
+    "ong.br",
+    "rec.br",
+    "seg.br",
+    "srv.br",
+    "tec.br",
+    "tmp.br",
+    "tur.br",
+    "tv.br",
+    "vlog.br",
+    "wiki.br"
+  ]
+}
