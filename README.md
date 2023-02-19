@@ -127,19 +127,22 @@ Buscando as informações meteorológicas em todas as capitais dos estados brasi
 $brasilApi->cptec()->weatherInCapitals();
 ```
 
-Buscando as informações meteorológicas em um aeroporto específico.
+Buscando as informações meteorológicas em um aeroporto específico através do seu código ICAO.
 
 ```php
 $brasilApi->cptec()->weatherInAirport('SBGR');
 ```
 
-Buscando as informações meteorológicas de uma cidade específica.
+Buscando as informações meteorológicas de uma cidade específica pelo seu código.
 
 ```php
 $brasilApi->cptec()->weatherInCity('SBGR');
 ```
 
 Buscando as informações meteorológicas de uma cidade específica no período de X dias.
+
+**Obs.:** O primeiro parâmetro se refere ao código da cidade e o segundo parâmetro refere-se a quantidade de dias.
+Lembrando que só é possível buscar informações entre 1 a 6 dias.
 
 ```php
 $brasilApi->cptec()->weatherInCityInXDays(999, 6);
@@ -152,6 +155,9 @@ $brasilApi->cptec()->oceanForecastInCity(999);
 ```
 
 Buscando a previsão oceânica em uma cidade específica no período de X dias.
+
+**Obs.:** O primeiro parâmetro se refere ao código da cidade e o segundo parâmetro refere-se a quantidade de dias.
+Lembrando que só é possível buscar informações entre 1 a 6 dias.
 
 ```php
 $brasilApi->cptec()->oceanForecastInCityInXDays(999, 6);
@@ -181,7 +187,7 @@ Buscando todas as marcas de veículos referente a um tipo de veículo.
 $brasilApi->fipe()->brandsByTypeVehicle('caminhoes');
 ```
 
-Buscando o preço de um veículo específico.
+Buscando o preço de um veículo específico pelo seu código FIPE.
 
 ```php
 $brasilApi->fipe()->price('001004-9');
@@ -195,7 +201,7 @@ $brasilApi->fipe()->referenceTables();
 
 ### IBGE
 
-Buscando todos os municípios de um estado específico.
+Buscando todos os municípios de um estado específico pela sua sigla.
 
 ```php
 $brasilApi->ibge()->stateCities('BA');
@@ -207,7 +213,7 @@ Buscando informações de todos os estados brasileiros.
 $brasilApi->ibge()->states();
 ```
 
-Buscando informações de um estado específico.
+Buscando informações de um estado específico pela sua sigla.
 
 ```php
 $brasilApi->ibge()->state('BA');
@@ -215,7 +221,7 @@ $brasilApi->ibge()->state('BA');
 
 ### ISBN
 
-Buscando informações sobre um livro específico.
+Buscando informações sobre um livro específico pelo seu código ISBN.
 
 ```php
 $brasilApi->isbn()->book('9788545702870');
@@ -243,7 +249,7 @@ $brasilApi->ncm()->search('01012100');
 
 ### Registro BR
 
-Buscando informações de um domínio.
+Buscando informações de um domínio específico.
 
 ```php
 $brasilApi->registerBr()->domain('google.com');
@@ -312,8 +318,8 @@ $brasilApi->addEndpoint("hope", Hope::class);
 $address = $brasilApi->hope()->getList();
 ```
 
-**Obs.:** O nome do endpoint deve ser o mesmo que você passou no método `addEndpoint` pois ele será utilizado
-no método mágico __call ao ser chamado.
+**Obs.:** A chamada do método do endpoint deve ser feito com o mesmo nome que foi definido no método `addEndpoint`, pois 
+ele será utilizado na busca dinâmica do endpoint através do método mágico `__call`.
 
 **Obs.2:** Além de criar, você pode sobrescrever endpoints existentes e atualizar os seus métodos.
 Isso pode ser útil caso seja lançada uma nova versão de algum endpoint e você queira utilizá-lo
