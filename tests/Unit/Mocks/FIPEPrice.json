@@ -1,0 +1,74 @@
+[
+  {
+    "valor": "R$ 9.919,00",
+    "marca": "Fiat",
+    "modelo": "Palio EX 1.0 mpi 2p",
+    "anoModelo": 2000,
+    "combustivel": "Gasolina",
+    "codigoFipe": "001004-9",
+    "mesReferencia": "fevereiro de 2023 ",
+    "tipoVeiculo": 1,
+    "siglaCombustivel": "G",
+    "dataConsulta": "domingo, 19 de fevereiro de 2023 16:31"
+  },
+  {
+    "valor": "R$ 9.171,00",
+    "marca": "Fiat",
+    "modelo": "Palio EX 1.0 mpi 2p",
+    "anoModelo": 2000,
+    "combustivel": "Álcool",
+    "codigoFipe": "001004-9",
+    "mesReferencia": "fevereiro de 2023 ",
+    "tipoVeiculo": 1,
+    "siglaCombustivel": "Á",
+    "dataConsulta": "domingo, 19 de fevereiro de 2023 16:31"
+  },
+  {
+    "valor": "R$ 8.372,00",
+    "marca": "Fiat",
+    "modelo": "Palio EX 1.0 mpi 2p",
+    "anoModelo": 1999,
+    "combustivel": "Gasolina",
+    "codigoFipe": "001004-9",
+    "mesReferencia": "fevereiro de 2023 ",
+    "tipoVeiculo": 1,
+    "siglaCombustivel": "G",
+    "dataConsulta": "domingo, 19 de fevereiro de 2023 16:31"
+  },
+  {
+    "valor": "R$ 7.083,00",
+    "marca": "Fiat",
+    "modelo": "Palio EX 1.0 mpi 2p",
+    "anoModelo": 1999,
+    "combustivel": "Álcool",
+    "codigoFipe": "001004-9",
+    "mesReferencia": "fevereiro de 2023 ",
+    "tipoVeiculo": 1,
+    "siglaCombustivel": "Á",
+    "dataConsulta": "domingo, 19 de fevereiro de 2023 16:31"
+  },
+  {
+    "valor": "R$ 7.678,00",
+    "marca": "Fiat",
+    "modelo": "Palio EX 1.0 mpi 2p",
+    "anoModelo": 1998,
+    "combustivel": "Gasolina",
+    "codigoFipe": "001004-9",
+    "mesReferencia": "fevereiro de 2023 ",
+    "tipoVeiculo": 1,
+    "siglaCombustivel": "G",
+    "dataConsulta": "domingo, 19 de fevereiro de 2023 16:31"
+  },
+  {
+    "valor": "R$ 6.604,00",
+    "marca": "Fiat",
+    "modelo": "Palio EX 1.0 mpi 2p",
+    "anoModelo": 1998,
+    "combustivel": "Álcool",
+    "codigoFipe": "001004-9",
+    "mesReferencia": "fevereiro de 2023 ",
+    "tipoVeiculo": 1,
+    "siglaCombustivel": "Á",
+    "dataConsulta": "domingo, 19 de fevereiro de 2023 16:31"
+  }
+]
