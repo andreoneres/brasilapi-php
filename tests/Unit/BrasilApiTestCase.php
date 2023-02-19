@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Unit;
 
 use BrasilApi\Client;
-use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Middleware;
