@@ -27,7 +27,7 @@ test("should search for a bank by code", function () {
         ->toEqual($this->arrayMock("Bank"));
     
     expect($this->getRequestUri($container[0]))
-        ->toBe("banks/v1/{$bankId}");
+        ->toBe("/api/banks/v1/{$bankId}");
     
     expect($this->getRequestMethod($container[0]))
         ->toBe("GET");
@@ -43,7 +43,7 @@ test("search for all the banks", function () {
         ->toBe($this->arrayMock("Banks"));
     
     expect($this->getRequestUri($container[0]))
-        ->toBe("banks/v1");
+        ->toBe("/api/banks/v1");
     
     expect($this->getRequestMethod($container[0]))
         ->toBe("GET");
