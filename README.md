@@ -249,6 +249,14 @@ Buscando informações de um NCM a partir de um código ou descrição.
 $brasilApi->ncm()->search('01012100');
 ```
 
+### Pix
+
+Buscando informações de todos os participantes do PIX no dia atual ou anterior.
+
+```php
+$brasilApi->pix()->participants();
+```
+
 ### Registro BR
 
 Buscando informações de um domínio específico.

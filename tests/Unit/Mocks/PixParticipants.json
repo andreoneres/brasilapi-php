@@ -1,0 +1,794 @@
+[
+  {
+    "ispb": "00000000",
+    "nome": "BANCO DO BRASIL S.A.",
+    "nome_reduzido": "BCO DO BRASIL S.A.",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "DRCT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00000208",
+    "nome": "BRB - BANCO DE BRASILIA S.A.",
+    "nome_reduzido": "BRB - BCO DE BRASILIA S.A.",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "DRCT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00068987",
+    "nome": "COOPERATIVA DE CRÉDITO SICOOB ARACREDI LTDA - SICOOB ARACREDI",
+    "nome_reduzido": "CC SICOOB ARACREDI",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00075847",
+    "nome": "COOPERATIVA DE CRÉDITO UNICRED CENTRO-SUL LTDA - UNICRED CENTRO-SUL",
+    "nome_reduzido": "CC UNICRED CENTRO-SUL LTDA - UNICRED CENTRO-SUL",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00106180",
+    "nome": "CENTRAL DAS COOPERATIVAS DE CRÉDITO DOS ESTADOS DE MATO GROSSO, MATO GROSSO DO SUL E DO MUNICÍPIO DE CACOAL/RO - SICOOB CENTRAL RONDON",
+    "nome_reduzido": "CCC DOS EST DE MT, MS E MUN DE CACOAL/RO",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00204963",
+    "nome": "COOPERATIVA DE CREDITO RURAL SEARA - CREDISEARA",
+    "nome_reduzido": "CCR SEARA",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "DRCT",
+    "inicio_operacao": "2022-02-11T13:00:00.000Z"
+  },
+  {
+    "ispb": "00259231",
+    "nome": "SICOOB UNIMAIS METROPOLITANA - COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO",
+    "nome_reduzido": "CCLA SICOOB UNIMAIS METROPOLITANA",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00309024",
+    "nome": "CENTRAL DAS COOPERATIVAS DE ECONOMIA E CREDITO DO ESTADO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CECREMGE",
+    "nome_reduzido": "CCC ESTADO MG - CECREMGE",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00315557",
+    "nome": "CONFEDERAÇÃO NACIONAL DAS COOPERATIVAS CENTRAIS UNICRED LTDA. - UNICRED DO BRASIL.",
+    "nome_reduzido": "CONF NAC COOP CENTRAIS UNICRED",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "DRCT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00329598",
+    "nome": "ÍNDIGO INVESTIMENTOS DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA.",
+    "nome_reduzido": "ÍNDIGO INVESTIMENTOS DTVM LTDA.",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "DRCT",
+    "inicio_operacao": "2022-11-08T13:00:00.000Z"
+  },
+  {
+    "ispb": "00360305",
+    "nome": "CAIXA ECONOMICA FEDERAL",
+    "nome_reduzido": "CAIXA ECONOMICA FEDERAL",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "DRCT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00394460",
+    "nome": "Secretaria do Tesouro Nacional - STN",
+    "nome_reduzido": "STN",
+    "modalidade_participacao": "GOVE",
+    "tipo_participacao": "DRCT",
+    "inicio_operacao": "2020-11-11T09:30:00.000Z"
+  },
+  {
+    "ispb": "00416968",
+    "nome": "BANCO INTER S.A.",
+    "nome_reduzido": "BANCO INTER",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "DRCT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00429890",
+    "nome": "COOPERATIVA DE CREDITO CREDIAGRO LTDA. - SICOOB CREDIAGRO",
+    "nome_reduzido": "CC CREDIAGRO",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00512839",
+    "nome": "COOPERATIVA DE ECONOMIA E CRÉDITO MÚTUO DOS SERVIDORES DO MUNICIPIO DE SANTO ANDRÉ - SP - SICOOB CECRESA",
+    "nome_reduzido": "CECM SERV MUNIC SANTO ANDRE",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00517645",
+    "nome": "BANCO RIBEIRAO PRETO S.A.",
+    "nome_reduzido": "BCO RIBEIRAO PRETO S.A.",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "DRCT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00556603",
+    "nome": "BANCO BARI DE INVESTIMENTOS E FINANCIAMENTOS S.A.",
+    "nome_reduzido": "BANCO BARI S.A.",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "DRCT",
+    "inicio_operacao": "2021-02-25T12:00:00.000Z"
+  },
+  {
+    "ispb": "00604122",
+    "nome": "TRIVALE ADMINISTRACAO LTDA",
+    "nome_reduzido": "TRIVALE",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00655522",
+    "nome": "ASSOCIACAO DE POUPANCA E EMPRESTIMO - POUPEX",
+    "nome_reduzido": "APE POUPEX",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00694389",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS - SICOOB CREDICARU SC/RS",
+    "nome_reduzido": "CCLA SICOOB CREDICARU SC/RS",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00694877",
+    "nome": "COOPERATIVA DE CRéDITO DE LIVRE ADMISSãO DO BRASIL CENTRAL LTDA. - SICOOB EXECUTIVO",
+    "nome_reduzido": "COOP SICOOB EXECUTIVO LTDA.",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00698609",
+    "nome": "COOPERATIVA DE CRÉDITO DO NORTE E NOROESTE DE MINAS GERAIS LTDA. - SICOOB CREDIGERAIS",
+    "nome_reduzido": "CC NORTE E NOROESTE DE MINAS GERAIS",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00707903",
+    "nome": "COOPERATIVA DE CRÉDITO VALE DO CANOAS - SICOOB/SC CREDICANOAS",
+    "nome_reduzido": "CC VALE DO CANOAS",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00714671",
+    "nome": "EWALLY INSTITUIÇÃO DE PAGAMENTO S.A.",
+    "nome_reduzido": "EWALLY IP S.A.",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00795423",
+    "nome": "BANCO SEMEAR S.A.",
+    "nome_reduzido": "BANCO SEMEAR",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "DRCT",
+    "inicio_operacao": "2021-12-22T13:00:00.000Z"
+  },
+  {
+    "ispb": "00803287",
+    "nome": "COOPERATIVA DE CRéDITO CREDIVAZ LTDA. - SICOOB CREDIVAZ",
+    "nome_reduzido": "CC CREDIVAZ LTDA",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00804046",
+    "nome": "COOPERATIVA DE CRÉDITO CREDICAPI LTDA - SICOOB CREDICAPI",
+    "nome_reduzido": "COOP CREDICAPI LTDA - SICOOB CREDICAPI",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00815319",
+    "nome": "COOPERATIVA DE CRÉDITO SUL-SERRANA DO ESPÍRITO SANTO",
+    "nome_reduzido": "SICOOB SUL-SERRANO",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00869687",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE BOA ESPERANÇA LTDA. - SICOOB BELCREDI",
+    "nome_reduzido": "CCLA BOA ESPERANÇA",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00952415",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO CREDFAZ LTDA. - SICOOB CREDFAZ",
+    "nome_reduzido": "SICOOB CREDFAZ",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00966246",
+    "nome": "COOPERATIVA DE CREDITO CREDICERIPA - SICOOB CREDICERIPA",
+    "nome_reduzido": "CC CREDICERIPA",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00968602",
+    "nome": "COOPERATIVA DE CREDITO DE LIVRE ADMISSÃO DO VALE DO SÃO PATRICIO LTDA.",
+    "nome_reduzido": "CCLA VALE SÃO PATRICIO LTDA",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "00971300",
+    "nome": "COOPERATIVA DE CREDITO E INVESTIMENTO COM INTERACAO SOLIDARIA PIONEIRA - CRESOL PIONEIRA",
+    "nome_reduzido": "COOP CRESOL PIONEIRA",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01009908",
+    "nome": "COOPERATIVA DE CREDITO DE LIVRE ADMISSAO DE PARA DE MINAS LTDA - SICOOB ASCICRED",
+    "nome_reduzido": "CCLA PARA DE MINAS",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01027058",
+    "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+    "nome_reduzido": "CIELO IP S.A.",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "DRCT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01039011",
+    "nome": "COOPERATIVA DE CRÉDITO UNICRED DESBRAVADORA LTDA - UNICRED DESBRAVADORA",
+    "nome_reduzido": "CC UNICRED DESBRAVADORA LTDA - UNICRED DESBRAVADORA",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-05T19:17:33.067Z"
+  },
+  {
+    "ispb": "01042487",
+    "nome": "COOPERATIVA DE CRÉDITO SICOOB UNIDAS",
+    "nome_reduzido": "CC SICOOB UNIDAS",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01060307",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA UNIÃO DOS VALES DO PIRANGA E MATIPÓ LTDA.   SICOOB UNIÃO",
+    "nome_reduzido": "CCLA VALES DO PIRANGA E MATIPÓ",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01062439",
+    "nome": "COOPERATIVA DE ECONOMIA E CREDITO MUTUO DOS FUNCIONARIOS DA COMIGO",
+    "nome_reduzido": "CECM DOS FUNCIONARIOS DA COMIGO",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01073966",
+    "nome": "COOPERATIVA DE CRÉDITO RURAL DE ABELARDO LUZ - SULCREDI/CREDILUZ",
+    "nome_reduzido": "CCR DE ABELARDO LUZ",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "DRCT",
+    "inicio_operacao": "2022-03-14T13:00:00.000Z"
+  },
+  {
+    "ispb": "01090027",
+    "nome": "COOPERATIVA DE ECONOMIA E CREDITO MUTUO DOS MEDICOS E CATEGORIAS AFINS-UNICRED NITEROI LTDA",
+    "nome_reduzido": "CECMME CATEG AFINS-UNIC.NITERO",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01110032",
+    "nome": "COOPERATIVA DE CRÉDITO, POUPANÇA E INVESTIMENTO DOS MÉDICOS E DEMAIS PROFISSIONAIS DA SAÚDE E LIVRE ADMISSÃO MINAS - ESPÍRITO SANTO LTDA. - UNICRED MINAS - ES",
+    "nome_reduzido": "CCPIMÉD E LA MINAS - ES LTDA. - UNICRED MINAS - ES",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01152097",
+    "nome": "COOPERATIVA DE CRÉDITO CREDIMATA LTDA. - SICOOB CREDIMATA",
+    "nome_reduzido": "CC CREDIMATA",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01155801",
+    "nome": "COOPERATIVA DE CRÉDITO RURAL COM INTERAÇÃO SOLIDÁRIA CENTRO SERRA - CRESOL CENTRO SERRA",
+    "nome_reduzido": "COOP CRESOL CENTRO SERRA",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01181521",
+    "nome": "BANCO COOPERATIVO SICREDI S.A.",
+    "nome_reduzido": "BCO COOPERATIVO SICREDI S.A.",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "DRCT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01187961",
+    "nome": "COOPERATIVA DE CRÉDITO DO DISTRITO FEDERAL E ENTORNO LTDA",
+    "nome_reduzido": "CC DISTRITO FEDERAL E ENTORNO",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01205736",
+    "nome": "COOPERATIVA DE CRÉDITO SICOOB COSTA DO DESCOBRIMENTO LTDA.",
+    "nome_reduzido": "COOP DE CRÉDITO SICOOB COSTA DO DESCOBRIMENTO LTDA.",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01259518",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO SICOOB UNIMAIS CENTRO LESTE PAULISTA - SICOOB UNIMAIS CENTRO LESTE PAULISTA",
+    "nome_reduzido": "SICOOB UNIMAIS CENTRO LESTE PAULISTA",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01286361",
+    "nome": "UNIPRIME PIONEIRA COOPERATIVA DE CRÉDITO",
+    "nome_reduzido": "UNIPRIME PIONEIRA CC",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01330295",
+    "nome": "COOPERATIVA DE ECONOMIA E CRÉDITO MÚTUO DOS SERVIDORES PÚBLICOS NO ESTADO DO ESPÍRITO SANTO",
+    "nome_reduzido": "SICOOB SERVIDORES",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01330387",
+    "nome": "COOPERATIVA DE CRÉDITO RURAL DE PEQUENOS AGRICULTORES E DA REFORMA AGRÁRIA DO CENTRO OESTE DO PARANÁ - CREHNOR LARANJEIRAS",
+    "nome_reduzido": "CREHNOR LARANJEIRAS",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "DRCT",
+    "inicio_operacao": "2022-01-07T11:00:00.000Z"
+  },
+  {
+    "ispb": "01374196",
+    "nome": "COOPERATIVA DE CRÉDITO DE SÃO FRANCISCO DE SALES LTDA. - SICOOB CREDISALES",
+    "nome_reduzido": "CC SÃO FRANCISCO DE SALES LTDA.",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01389651",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DO PLANALTO CATARINENSE SICOOB CREDIPLANALTO SC/RS",
+    "nome_reduzido": "CCLA DO PLANALTO CATARINENSE",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01526924",
+    "nome": "COOPERATIVA DE ECONOMIA E CRÉDITO MÚTUO UNICRED HORIZONTES LTDA - UNICRED HORIZONTES",
+    "nome_reduzido": "UNICRED HORIZONTES",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01559914",
+    "nome": "SICOOB AC CREDI - COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO LESTE E NORDESTE MINEIRO LTDA.",
+    "nome_reduzido": "CCLA LESTE E NORDESTE MINEIRO",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01566038",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DE MANAUS",
+    "nome_reduzido": "CCLA MANAUS",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01572667",
+    "nome": "COOPERATIVA DE ECONOMIA E CRÉDITO MÚTUO UNICRED ERECHIM LTDA",
+    "nome_reduzido": "UNICRED ERECHIM",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01604998",
+    "nome": "COOPERATIVA DE CREDITO DE LIVRE ADMISSÃO DO SUL DE MINAS LTDA - SICOOB CREDIVASS",
+    "nome_reduzido": "CCLA SUL MINAS-SICOOB CREDIVAS",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01608685",
+    "nome": "COOPERATIVA DE CRéDITO DE LIVRE ADMISSãO DO ESTADO DO ACRE LTDA.",
+    "nome_reduzido": "COOP DO ESTADO DO ACRE LTDA.",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01609345",
+    "nome": "COOPERATIVA DE CRÉDITO CREDICAMPINA LTDA. - SICOOB CREDICAMPINA",
+    "nome_reduzido": "CC CREDICAMPINA",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01635462",
+    "nome": "COOPERATIVA DE ECONOMIA E CRÉDITO MÚTUO DOS MÉDICOS DOS VALES DO TAQUARI E RIO PARDO E REGIÃO DA PRODUÇÃO LTDA. - UNICRED PREMIUM",
+    "nome_reduzido": "CECM DOS MÉDICOS DOS V TAQUARI E RIO PARDO E REG PRO",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01637949",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO VALE DO PARANAPANEMA",
+    "nome_reduzido": "CCLA VALE DO PARANAPANEMA",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01644264",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO MÉDIO PIRACICABA E DO CIRCUITO DO OURO LTDA. - SICOOB CREDIMEPI",
+    "nome_reduzido": "CCLA MEDIO PIRACICABA E CIRCUITO DO OURO LTDA",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01657678",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA REGIÃO DE SÃO SEBASTIÃO DO PARAÍSO LTDA. - SICOOB PARAÍSOCRED",
+    "nome_reduzido": "CCLA SEBASTIAO PARAISO",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01664968",
+    "nome": "COOPERATIVA  DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS UNIRONDÔNIA LTDA",
+    "nome_reduzido": "CCLA DE ASSOCIADOS UNIRONDÔNIA LTDA",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01667352",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO SERTÃO DE MINAS GERAIS LTDA. - SICOOB SERTÃO MINAS",
+    "nome_reduzido": "CCLA SERTÃO MINAS",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01667766",
+    "nome": "SICOOB CREDINOVA - COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE NOVA SERRANA E REGIÃO CENTRO-OESTE LTDA.",
+    "nome_reduzido": "CCLA NOVA SERRANA E REGIÃO CO",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01692448",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DO PLANALTO SERRANO - SICOOB CREDISERRA SC",
+    "nome_reduzido": "CCLA DO PLANALTO SERRANO",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01699652",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA REGIÃO DE GUAXUPÉ LTDA. - SICOOB ACICREDI",
+    "nome_reduzido": "CCLA REGIÃO GUAXUPÉ",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01703620",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO UNIÃO DO CENTRO OESTE DE MINAS LTDA - SICOOB CREDESP",
+    "nome_reduzido": "CCLA UNIÃO CENTRO OESTE MINAS",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01705236",
+    "nome": "COOPERATIVA DE ECONOMIA E CRÉDITO MÚTUO UNICRED PROSPERAR LTDA. - UNICRED PROSPERAR",
+    "nome_reduzido": "UNICRED PROSPERAR",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01709266",
+    "nome": "COOPERATIVA DE CRéDITO MúTUO DOS PROFISSIONAIS DA SAúDE E LIVRE ADMISSãO DE TEóFILO OTONI LTDA. - UNICRED TRêS VALES",
+    "nome_reduzido": "CCM PROF SAUDE E LIVRE ADMISSÃO TEOFILO OTONI LTDA",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01722480",
+    "nome": "QUERO-QUERO VERDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+    "nome_reduzido": "QUERO-QUERO VERDECARD IP S.A.",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T15:06:06.336Z"
+  },
+  {
+    "ispb": "01727929",
+    "nome": "COOPERATIVA DE CRÉDITO UNICRED EVOLUÇÃO LTDA. - UNICRED EVOLUÇÃO",
+    "nome_reduzido": "CC UNICRED EVOLUÇÃO LTDA.",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01736516",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA REGIÃO CENTRAL E OESTE MINEIRO LTDA. - SICOOB DIVICRED",
+    "nome_reduzido": "CCLA REG. CTR. E OESTE MINEIRO",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01739375",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE  LAGOA DA PRATA E REGIÃO LTDA.   SICOOB LAGOACRED GERAIS",
+    "nome_reduzido": "CCLA LAGOA DA PRATA",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01760242",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE BELO HORIZONTE E CIDADES POLO DO ESTADO DE MINAS GERAIS LTDA. - SICOOB NOSSACOOP",
+    "nome_reduzido": "CCLA DE BH E CIDADES POLO DE MG",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01796302",
+    "nome": "COOPERATIVA DE CRÉDITO UNICRED REGIÃO DOS VALES LTDA. - UNICRED REGIÃO DOS VALES",
+    "nome_reduzido": "UNICRED REGIÃO DOS VALES",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-05T19:21:28.562Z"
+  },
+  {
+    "ispb": "01848322",
+    "nome": "UNIPRIME DO IGUAÇU - COOPERATIVA DE CRÉDITO, POUPANÇA E INVESTIMENTO",
+    "nome_reduzido": "UNIPRIME DO IGUAÇU - CC POUP INV",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01858774",
+    "nome": "BANCO BV S.A.",
+    "nome_reduzido": "BCO BV S.A.",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "DRCT",
+    "inicio_operacao": "2021-06-14T11:00:00.000Z"
+  },
+  {
+    "ispb": "01864151",
+    "nome": "COOPERATIVA  ECONOMIA CRÉDITO MÚTUO  SERVS E EMPREGADOS PÚBLICOS MUNIC DE BELO HORIZONTE BETIM BRUMADINHO CONTAGEM IBIRITÉ NOVA LIMA RIBEIRÃO DAS NEVES SABARÁ SANTA LUZIA E VESPASIANO SICOOB CREDISERV",
+    "nome_reduzido": "CECM SERV E EMPREG PUBL MUN BH BETIM BRUMAD CONTAG IBI NL RN",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "01896779",
+    "nome": "CSU CARDSYSTEM S/A",
+    "nome_reduzido": "CSU",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2023-01-23T13:25:00.283Z"
+  },
+  {
+    "ispb": "02000895",
+    "nome": "COOPERATIVA DE ECONOMIA E CRéDITO MúTUO DOS SERVIDORES DO PODER JUDICIáRIO, DO TRIBUNAL DE CONTAS ESTADUAL E DEMAIS ÓRGãOS PúBLICOS MUNICIPAIS, ESTADUAIS E FEDERAIS NO ESTADO DO RIO DE JANEIRO LTDA. –",
+    "nome_reduzido": "CECM SERV POD JUD TCE ORG PUBL MUN EST FED RJ",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "02015588",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO CENTRO SUL RONDONIENSE - SICOOB CREDIP.",
+    "nome_reduzido": "CCLA DO CENTRO SUL RONDONIENSE",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "02025743",
+    "nome": "COOPERATIVA DE CRÉDITO RURAL ASCOOB VALE DO OURO   ASCOOB VALE DO OURO",
+    "nome_reduzido": "COOP ASCOOB VALE DO OURO",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "02031139",
+    "nome": "SICOOB CREDIMONTES - COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO REGIONAL DE MONTES CLAROS LTDA",
+    "nome_reduzido": "CCLA MONTES CLAROS",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "02038232",
+    "nome": "BANCO COOPERATIVO SICOOB S.A. - BANCO SICOOB",
+    "nome_reduzido": "BANCO SICOOB S.A.",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "DRCT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "02057584",
+    "nome": "COOPERATIVA DE CRÉDITO SICOOB SERTÃO LTDA",
+    "nome_reduzido": "CC SICOOB SERTÃO",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "02072790",
+    "nome": "COOPERATIVA DE ECONOMIA CRÉDITO MÚTUO - SICOOB CREDSAÚDE",
+    "nome_reduzido": "CECM SICOOB CREDSAÚDE",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "02090126",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS VALE DO CHAPECOZINHO - SICOOB VALCREDI SUL",
+    "nome_reduzido": "CCLA SICOOB VALCREDI SUL",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "02093154",
+    "nome": "COOPERATIVA DE CRÉDITO MÚTUO DOS EMPREGADOS DO MAGAZINE LUIZA, EMPRESAS CONTROLADAS E COLIGADAS - COOPLUIZA",
+    "nome_reduzido": "CCM EMPR MAGAZINE LUIZA",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "02137018",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE RORAIMA LTDA.",
+    "nome_reduzido": "CCLA DE RORAIMA LTDA.",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "02144899",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA REGIÃO CENTRAL DE RONDÔNIA   SICOOB OUROCREDI",
+    "nome_reduzido": "CCLA DA REGIÃO CENTRAL DE RONDÔNIA",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "02173447",
+    "nome": "COOPERATIVA DE CREDITO DE LIVRE ADMISSAO DO CENTRO NORDESTE MINEIRO LTDA - SICOOB CREDICENM",
+    "nome_reduzido": "CCLA CENTRO NORDESTE MINEIRO",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "02179673",
+    "nome": "COOPERATIVA DE ECONOMIA E CRÉDITO MÚTUO DOS MÉDICOS E DEMAIS PROFISSIONAIS DE NÍVEL SUPERIOR DA ÁREA DE SAÚDE DE OURINHOS - OURICRED",
+    "nome_reduzido": "CECM MÉD OURINHOS",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "02197569",
+    "nome": "COOPERATIVA DE CRÉDITO CREDSAOPAULO - SICOOB CREDSAOPAULO",
+    "nome_reduzido": "CCLA CREDSAOPAULO",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "02217068",
+    "nome": "COOPERATIVA DE CRÉDITO DOS CONTADORES, ADMINISTRADORES DE EMPRESAS, ECONOMISTAS E CORRETORES DE SEGUROS LTDA. - SICOOB CREDITABIL",
+    "nome_reduzido": "CC CONTADORES, ADMINISTRADORES, ECONOMISTAS E CORRET SEGUROS",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "02232383",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA REGIÃO DO CIRCUITO CAMPOS DAS VERTENTES LTDA - SICOOB COPERMEC",
+    "nome_reduzido": "CCLA CIRCUITO CAMPOS VERTENTES",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  },
+  {
+    "ispb": "02254376",
+    "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DE DORES DO INDAIÁ LTDA - COOPCREDI",
+    "nome_reduzido": "CCLA DE DORES DO INDAIA",
+    "modalidade_participacao": "PDCT",
+    "tipo_participacao": "IDRT",
+    "inicio_operacao": "2020-11-03T09:30:00.000Z"
+  }
+]

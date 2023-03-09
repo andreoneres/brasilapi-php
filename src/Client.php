@@ -17,6 +17,7 @@ use BrasilApi\Endpoints\FIPE;
 use BrasilApi\Endpoints\IBGE;
 use BrasilApi\Endpoints\ISBN;
 use BrasilApi\Endpoints\NCM;
+use BrasilApi\Endpoints\Pix;
 use BrasilApi\Endpoints\RegisterBR;
 use BrasilApi\Endpoints\Taxes;
 use BrasilApi\Exceptions\BrasilApiException;
@@ -39,6 +40,7 @@ use GuzzleHttp\Exception\RequestException;
  * @method IBGE ibge()
  * @method ISBN isbn()
  * @method NCM ncm()
+ * @method Pix pix()
  * @method RegisterBR registerBr()
  * @method Taxes taxes()
  */
@@ -149,6 +151,7 @@ class Client
             "ibge"       => IBGE::class,
             "isbn"       => ISBN::class,
             "ncm"        => NCM::class,
+            "pix"        => Pix::class,
             "registerBr" => RegisterBR::class,
             "taxes"      => Taxes::class,
         ]);
