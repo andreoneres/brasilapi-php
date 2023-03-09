@@ -34,6 +34,7 @@ Você pode acessar a documentação oficial da BrasilAPI acessando esse [link](h
     - [NCM](#ncm)
     - [Registro BR](#registro-br)
     - [Taxas](#taxas)
+  - [Tratando exceções](#tratando-exceções)
   - [Criando endpoints](#criando-endpoints)
   - [Testes](#testes)
   - [Contribuindo](#contribuindo)
@@ -285,7 +286,6 @@ Para adicionar novos ou sobreescrever os já existentes endpoints, você deve se
 
 1. Crie uma classe que extenda a classe `BrasilApi\Endpoints\Abstracts\Endpoint`;
 
-
 2. Nesta classe, você pode implementar todos os métodos que desejar e utilizar o método `$this->client->request()` 
 para enviar as requisições para a API. Lembre-se que a base URL da API já está embutido no 'Client', portanto na uri 
 do método você precisa adicionar apenas o complemento da rota. 
@@ -334,6 +334,24 @@ ele será utilizado na busca dinâmica do endpoint através do método mágico `
 **Obs.2:** Além de criar, você pode sobrescrever endpoints existentes e atualizar os seus métodos.
 Isso pode ser útil caso seja lançada uma nova versão de algum endpoint e você queira utilizá-lo
 imediatamente. Dessa forma, você pode sobrescrever o endpoint existente e alterar a sua URI.
+
+## Tratando exceções
+
+Caso a API retorne um erro, a biblioteca irá lançar uma exceção do tipo `BrasilApi\Exceptions\BrasilApiException`.
+Para capturar esta exceção, você deve utilizar o bloco `try/catch` e tratar o erro da forma que desejar.
+
+Exemplo:
+
+```php
+try {
+    $address = $brasilApi->cep()->get('01001000');
+} catch (BrasilApiException $e) {
+    echo $e->getMessage(); // Retorna a mensagem de erro da API
+    echo $e->getCode(); // Retorna o código HTTP da API
+    echo $e->getErrors(); // Retorna os erros retornados pela API
+    echo $e->getRawResponse(); // Retorna a resposta bruta da API
+}
+```
 
 ## Testes
 
