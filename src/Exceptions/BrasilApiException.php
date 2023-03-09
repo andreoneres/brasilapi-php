@@ -13,9 +13,20 @@ class BrasilApiException extends Exception
      */
     private array $errors;
     
-    public function __construct(string $message = "", int $code = 0, array $errors = [])
+    /**
+     * The raw response returned by BrasilApi
+     */
+    private string $rawResponse;
+    
+    public function __construct(
+        string $message = "",
+        int $code = 0,
+        array $errors = [],
+        string $rawResponse = ""
+    )
     {
         $this->errors = $errors;
+        $this->rawResponse = $rawResponse;
         parent::__construct($message, $code);
     }
     
@@ -25,5 +36,13 @@ class BrasilApiException extends Exception
     public function getErrors(): array
     {
         return $this->errors;
+    }
+    
+    /**
+     * Returns the raw response returned by BrasilApi
+     */
+    public function getRawResponse(): string
+    {
+        return $this->rawResponse;
     }
 }

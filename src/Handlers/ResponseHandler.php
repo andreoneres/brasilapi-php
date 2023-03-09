@@ -40,14 +40,13 @@ class ResponseHandler
     }
     
     /**
-     * Parse a GuzzleHttp\Exception\RequestException into a BrasilApiException,
-     * if possible depending on the response body.
+     * Parse a GuzzleHttp\Exception\RequestException into a BrasilApiException.
      *
      * @param RequestException $exception The exception to be parsed
      *
-     * @return BrasilApiException|RequestException
+     * @return BrasilApiException
      */
-    private static function parseException(RequestException $exception): BrasilApiException|RequestException
+    private static function parseException(RequestException $exception): BrasilApiException
     {
         $response = $exception->getResponse();
         
@@ -56,13 +55,14 @@ class ResponseHandler
         try {
             $error = self::toArray($body);
         } catch (InvalidJsonException) {
-            return $exception;
+            $error = [];
         }
         
         return new BrasilApiException(
             $error["message"] ?? "An error occurred",
             $response->getStatusCode(),
-            $error["errors"] ?? []
+            $error["errors"] ?? [],
+            $body
         );
     }
     
