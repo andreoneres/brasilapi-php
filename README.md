@@ -111,6 +111,20 @@ Buscando um CNPJ específico.
 $brasilApi->cnpj()->get('00000000000191');
 ```
 
+### Corretoras
+
+Buscando uma corretora específica pelo CNPJ.
+
+```php
+$brasilApi->realtors()->get('76621457000185');
+```
+
+Buscando todas as corretoras listadas pela CVM.
+
+```php
+$brasilApi->realtors()->getList();
+```
+
 ### CPTEC
 
 Buscando uma cidade pelo nome.

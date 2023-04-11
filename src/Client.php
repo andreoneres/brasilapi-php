@@ -9,6 +9,7 @@ use BrasilApi\Endpoints\Banks;
 use BrasilApi\Endpoints\CEP;
 use BrasilApi\Endpoints\CEPV2;
 use BrasilApi\Endpoints\CNPJ;
+use BrasilApi\Endpoints\Realtors;
 use BrasilApi\Endpoints\Collections\Endpoints;
 use BrasilApi\Endpoints\CPTEC;
 use BrasilApi\Endpoints\DDD;
@@ -33,6 +34,7 @@ use GuzzleHttp\Exception\RequestException;
  * @method CEP cep()
  * @method CEPV2 cepV2()
  * @method CNPJ cnpj()
+ * @method Realtors realtors()
  * @method CPTEC cptec()
  * @method DDD ddd()
  * @method Holidays holidays()
@@ -144,6 +146,7 @@ class Client
             "cep"        => CEP::class,
             "cepV2"      => CEPV2::class,
             "cnpj"       => CNPJ::class,
+            "realtors"   => Realtors::class,
             "cptec"      => CPTEC::class,
             "ddd"        => DDD::class,
             "holidays"   => Holidays::class,
