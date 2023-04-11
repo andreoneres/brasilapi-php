@@ -25,6 +25,7 @@ Você pode acessar a documentação oficial da BrasilAPI acessando esse [link](h
     - [CEP](#cep)
     - [CEP V2](#cep-v2)
     - [CNPJ](#cnpj)
+    - [Corretoras](#corretoras)
     - [CPTEC](#cptec)
     - [DDD](#ddd)
     - [Feriados](#feriados)
