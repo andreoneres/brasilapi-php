@@ -1,0 +1,21 @@
+{
+  "cnpj": "76621457000185",
+  "type": "CORRETORAS",
+  "nome_social": "4UM DTVM S.A.",
+  "nome_comercial": "4UM INVESTIMENTOS",
+  "status": "CANCELADA",
+  "email": "controle@4um.com.br",
+  "telefone": "33519966",
+  "cep": "80420210",
+  "pais": "BRASIL",
+  "uf": "PR",
+  "municipio": "CURITIBA",
+  "bairro": "CENTRO",
+  "complemento": "4º ANDAR",
+  "logradouro": "R. VISCONDE DO RIO BRANCO 1488",
+  "data_patrimonio_liquido": "2005-12-31",
+  "valor_patrimonio_liquido": "4228660.18",
+  "codigo_cvm": "2275",
+  "data_inicio_situacao": "2006-10-05",
+  "data_registro": "1968-01-15"
+}
